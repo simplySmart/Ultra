@@ -1,41 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Search, Bookmark, Menu, Download, 
   Calendar, Users, Monitor, SlidersHorizontal, 
   Clock, TrendingUp, ArrowUpDown, List, 
-  LayoutGrid, MoreVertical, ArrowUp, Image as ImageIcon
+  LayoutGrid, MoreVertical, ArrowUp, Image as ImageIcon, Loader2
 } from 'lucide-react';
 
-// --- Mock Data (Simulating our future static JSON API) ---
-const mockFeed = [
-  {
-    id: "dandadan-07",
-    clean_title: "Dandadan",
-    episode: "07",
-    group: "SubsPlease",
-    resolution: "1080p",
-    size: "1.4 GB",
-    seeders: 1289,
-    pub_date: new Date().toISOString(), // Simulates "Today"
-    magnet: "#",
-    image_url: "https://cdn.myanimelist.net/images/anime/1015/144233l.jpg"
-  },
-  {
-    id: "kaiju-no-8-12",
-    clean_title: "Kaiju No. 8",
-    episode: "12",
-    group: "Erai-raws",
-    resolution: "1080p",
-    size: "1.2 GB",
-    seeders: 850,
-    pub_date: new Date(Date.now() - 86400000).toISOString(), // Simulates "Yesterday"
-    magnet: "#",
-    image_url: "https://cdn.myanimelist.net/images/anime/1169/140656l.jpg"
-  }
-];
+const API_URL = "https://simplysmart.github.io/Ultra/latest/feed.json";
 
 export default function App() {
-  const [items, setItems] = useState(mockFeed);
+  const [items, setItems] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState('list'); 
   const [filters, setFilters] = useState({
     season: 'All Seasons',
@@ -44,11 +19,29 @@ export default function App() {
     sort: 'Latest'
   });
 
+  // Fetch the Static JSON Database
+  useEffect(() => {
+    const fetchFeed = async () => {
+      try {
+        const response = await fetch(API_URL);
+        if (!response.ok) throw new Error("Network response was not ok");
+        const data = await response.json();
+        setItems(data);
+      } catch (error) {
+        console.error("Error fetching static feed:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchFeed();
+  }, []);
+
   const handleFilterChange = (key, value) => {
     setFilters(prev => ({ ...prev, [key]: value }));
   };
 
-  // Group items by Date
+  // Group items by Local Device Date
   const groupedItems = items.reduce((groups, item) => {
     const date = new Date(item.pub_date);
     const today = new Date();
@@ -66,7 +59,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F8F9FB] text-gray-900 font-sans">
-      {/* Top Navigation */}
       <nav className="bg-white border-b border-gray-100 px-6 py-4 flex items-center justify-between sticky top-0 z-50 shadow-sm">
         <div className="text-xl font-bold tracking-tight text-gray-900">NEXTTOSHO</div>
         <div className="flex items-center gap-6 text-gray-600">
@@ -77,7 +69,6 @@ export default function App() {
       </nav>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
-        {/* Header Section */}
         <div className="mb-8">
           <div className="flex items-center gap-4 mb-2">
             <div className="bg-purple-100 text-purple-600 p-2.5 rounded-xl">
@@ -88,7 +79,6 @@ export default function App() {
           <p className="text-gray-500 ml-[58px]">Latest anime episode releases from your favorite fansub groups.</p>
         </div>
 
-        {/* Filters Row */}
         <div className="flex flex-wrap gap-4 mb-6">
           <div className="relative flex-1 min-w-[160px]">
             <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
@@ -130,7 +120,6 @@ export default function App() {
           </button>
         </div>
 
-        {/* Sort & View Toggles */}
         <div className="flex items-center justify-between bg-white border border-gray-100 rounded-xl p-1 mb-8 shadow-sm">
           <div className="flex gap-1 flex-1 overflow-x-auto no-scrollbar">
             {['Latest', 'Most Seeded', 'A - Z'].map(sort => (
@@ -164,25 +153,35 @@ export default function App() {
           </div>
         </div>
 
-        {/* Content List */}
-        <div className="flex flex-col gap-6">
-          {Object.entries(groupedItems).map(([dateLabel, groupItems]) => (
-            <div key={dateLabel}>
-              <h3 className="text-gray-400 font-bold text-sm uppercase tracking-wider mb-4 ml-1">{dateLabel}</h3>
-              <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
-                {groupItems.map(item => (
-                  <ReleaseCard key={item.id} item={item} viewMode={viewMode} />
-                ))}
+        {/* Dynamic Content Loading */}
+        {loading ? (
+          <div className="flex flex-col items-center justify-center py-20 text-gray-400 gap-4">
+            <Loader2 className="animate-spin text-purple-500" size={32} />
+            <p>Syncing release feed...</p>
+          </div>
+        ) : items.length === 0 ? (
+          <div className="text-center py-20 text-gray-400">
+            <p>No releases found. Make sure GitHub Pages is enabled and the workflow has finished!</p>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-6">
+            {Object.entries(groupedItems).map(([dateLabel, groupItems]) => (
+              <div key={dateLabel}>
+                <h3 className="text-gray-400 font-bold text-sm uppercase tracking-wider mb-4 ml-1">{dateLabel}</h3>
+                <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
+                  {groupItems.map(item => (
+                    <ReleaseCard key={item.id} item={item} viewMode={viewMode} />
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </main>
     </div>
   );
 }
 
-// --- Restructured Release Card Component ---
 function ReleaseCard({ item, viewMode }) {
   const isList = viewMode === 'list';
   
@@ -195,24 +194,24 @@ function ReleaseCard({ item, viewMode }) {
 
   return (
     <div className={`bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow group ${isList ? 'flex p-3 gap-3 sm:gap-4' : 'flex flex-col p-4 gap-4'}`}>
-      
-      {/* Thumbnail: Scales down slightly on mobile to free up space */}
       <div className={`relative shrink-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-200 ${isList ? 'w-24 sm:w-40 aspect-video sm:h-[90px]' : 'w-full aspect-video'}`}>
-        <img 
-          src={item.image_url} 
-          alt={item.clean_title} 
-          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-          loading="lazy"
-        />
+        {item.image_url ? (
+          <img 
+            src={item.image_url} 
+            alt={item.clean_title} 
+            className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center text-gray-300">
+            <ImageIcon size={32} />
+          </div>
+        )}
       </div>
 
-      {/* Content & Actions Column */}
       <div className="flex flex-col flex-1 min-w-0 justify-between">
-        
-        {/* Top Section: Title and Tags */}
         <div>
           <h2 className="font-bold text-gray-900 text-base sm:text-lg truncate mb-1.5">{item.clean_title}</h2>
-          
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
             <span className="px-2 py-0.5 bg-[#F3F4F6] text-gray-600 text-xs font-semibold rounded-md border border-gray-200">
               EP {item.episode}
@@ -226,10 +225,7 @@ function ReleaseCard({ item, viewMode }) {
           </div>
         </div>
 
-        {/* Bottom Section: Meta Info & Action Buttons */}
         <div className="flex flex-wrap items-end justify-between gap-3 mt-1 sm:mt-2">
-          
-          {/* Fansub Group & Seeders */}
           <div className="flex items-center text-xs sm:text-sm mb-1">
             <span className={`font-bold ${item.group === 'SubsPlease' ? 'text-purple-600' : 'text-blue-600'}`}>
               {item.group}
@@ -237,11 +233,10 @@ function ReleaseCard({ item, viewMode }) {
             <span className="text-gray-300 mx-1.5">•</span>
             <div className="flex items-center text-gray-500 font-semibold gap-1">
               <ArrowUp size={14} className="text-green-500 stroke-[3]" />
-              {item.seeders.toLocaleString()}
+              {item.seeders ? item.seeders.toLocaleString() : "0"}
             </div>
           </div>
 
-          {/* Action Buttons (Moved inside the text column to prevent squashing) */}
           <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             <button className="p-2 text-gray-400 hover:text-gray-900 transition-colors bg-gray-50 hover:bg-gray-100 rounded-lg">
               <Download size={18} />
@@ -253,7 +248,6 @@ function ReleaseCard({ item, viewMode }) {
               <MoreVertical size={18} />
             </button>
           </div>
-          
         </div>
       </div>
     </div>
