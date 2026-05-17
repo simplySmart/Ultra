@@ -23,8 +23,11 @@ function extractMetadata(rawTitle) {
 function cleanAndNormalize(rawTitle) {
   let cleaned = rawTitle;
 
-  // 1. Strip the bracketed CRC32 hash entirely if it exists (e.g., [BB8A3538])
-  cleaned = cleaned.replace(/\[[a-fA-F0-9]{8}\]/g, '');
+  // 1. Strip bracketed or parenthesized hashes (e.g., [BB8A3538] or (42652d4a))
+  cleaned = cleaned.replace(/[\[\(][a-fA-F0-9]{8}[\]\)]/g, '');
+
+  // 1.5. Aggressively strip any standalone 8-character hex strings
+  cleaned = cleaned.replace(/\b[a-fA-F0-9]{8}\b/g, '');
 
   // 2. Strip group tags at the beginning
   cleaned = cleaned.replace(/^\[.*?\]/, '');
@@ -44,18 +47,15 @@ function cleanAndNormalize(rawTitle) {
   // 6. Scrub remaining loose brackets, dots and dashes
   cleaned = cleaned.replace(/[\[\]\(\)\-\._,]/g, ' ').trim();
 
-  // 7. Squash whitespace sequences
   return cleaned.replace(/\s+/g, ' ');
 }
 
 export function processRelease(rawRelease) {
   const { raw_title } = rawRelease;
   const { group, resolution, episode } = extractMetadata(raw_title);
-  
-  // Clean string execution
   const cleanedTitle = cleanAndNormalize(raw_title);
 
-  // Generate valid URL IDs without loose trailing hyphens
+  // Generate valid URL IDs
   const anime_id = cleanedTitle.replace(/\s+/g, '-').replace(/-+$/, '');
   
   // Title capitalization formatting for display

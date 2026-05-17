@@ -22,7 +22,8 @@ export default function App() {
   useEffect(() => {
     const fetchFeed = async () => {
       try {
-        const response = await fetch(API_URL);
+        // Appending a timestamp query forces the browser to bypass local cache and fetch the newest JSON
+        const response = await fetch(`${API_URL}?t=${new Date().getTime()}`);
         if (!response.ok) throw new Error("Network response was not ok");
         const data = await response.json();
         setItems(data);
@@ -182,9 +183,9 @@ export default function App() {
 function ReleaseCard({ item, viewMode }) {
   const isList = viewMode === 'list';
   
-  // Clean fallback title matching for the dynamic thumbnail lookup API
+  // The New Rock-Solid Thumbnail Engine
   const encodedTitle = encodeURIComponent(item.clean_title.trim());
-  const fallbackThumb = `https://images.weserv.nl/?url=https://avatar.iran.liara.run/username?username=${encodedTitle}&bg=7C3AED&color=ffffff`;
+  const fallbackThumb = `https://ui-avatars.com/api/?name=${encodedTitle}&background=F3F4F6&color=7C3AED&size=256&font-size=0.4&bold=true`;
 
   const CustomMagnet = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

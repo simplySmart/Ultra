@@ -30,6 +30,7 @@ async function fetchAndProcess() {
 
   let latestFeed = readJSON(LATEST_FEED_PATH) || [];
   let newUpdates = false;
+  let newEntries = []; // We collect them here first to preserve the correct order
 
   for (const item of items) {
     const rawRelease = {
@@ -40,15 +41,16 @@ async function fetchAndProcess() {
     };
 
     const result = processRelease(rawRelease);
-
-    if (result.status === "quarantined") {
-      continue;
-    }
+    if (result.status === "quarantined") continue;
 
     const animeData = result.data;
     const animeId = animeData.anime_id;
     
-    if (latestFeed.some(feedItem => feedItem.id === `${animeId}-${animeData.episode}`)) {
+    // Check if it exists in the OLD feed OR the NEW array we are building
+    if (
+      latestFeed.some(f => f.id === `${animeId}-${animeData.episode}`) ||
+      newEntries.some(f => f.id === `${animeId}-${animeData.episode}`)
+    ) {
       continue; 
     }
 
@@ -78,8 +80,8 @@ async function fetchAndProcess() {
 
     writeJSON(animeFilePath, animeHistory);
 
-    // Provide the clean display string to the frontend feed
-    latestFeed.unshift({
+    // Push into our temporary block, preserving the correct descending order
+    newEntries.push({
       id: `${animeId}-${animeData.episode}`,
       clean_title: animeData.clean_title,
       episode: animeData.episode,
@@ -93,7 +95,8 @@ async function fetchAndProcess() {
   }
 
   if (newUpdates) {
-    latestFeed = latestFeed.slice(0, 100);
+    // Append the perfectly ordered new entries to the top of the old feed
+    latestFeed = [...newEntries, ...latestFeed].slice(0, 100);
     writeJSON(LATEST_FEED_PATH, latestFeed);
     console.log("Database successfully generated.");
   } else {
