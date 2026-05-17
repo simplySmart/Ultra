@@ -21,27 +21,47 @@ function extractMetadata(rawTitle) {
 }
 
 function cleanAndNormalize(rawTitle) {
-  let cleaned = rawTitle.toLowerCase();
+  let cleaned = rawTitle;
+
+  // 1. Strip the bracketed CRC32 hash entirely if it exists (e.g., [BB8A3538])
+  cleaned = cleaned.replace(/\[[a-fA-F0-9]{8}\]/g, '');
+
+  // 2. Strip group tags at the beginning
   cleaned = cleaned.replace(/^\[.*?\]/, '');
+
+  // 3. Lowercase for token verification
+  cleaned = cleaned.toLowerCase();
+
+  // 4. Wipe global video tags
   NOISE_TAGS.forEach(tag => {
     const regex = new RegExp(`\\b${tag}\\b|\\[${tag}\\]|\\(${tag}\\)`, 'gi');
     cleaned = cleaned.replace(regex, '');
   });
+
+  // 5. Separate out episode number markers
   cleaned = cleaned.replace(/(?:-|ep|e)\s*\d+(?:\.\d+)?/gi, '');
-  cleaned = cleaned.replace(/[\[\]\(\)\-\.]/g, ' ').trim();
+
+  // 6. Scrub remaining loose brackets, dots and dashes
+  cleaned = cleaned.replace(/[\[\]\(\)\-\._,]/g, ' ').trim();
+
+  // 7. Squash whitespace sequences
   return cleaned.replace(/\s+/g, ' ');
 }
 
 export function processRelease(rawRelease) {
   const { raw_title } = rawRelease;
   const { group, resolution, episode } = extractMetadata(raw_title);
+  
+  // Clean string execution
   const cleanedTitle = cleanAndNormalize(raw_title);
 
-  // Auto-learn the anime ID to populate the UI immediately
-  const anime_id = cleanedTitle.replace(/\s+/g, '-');
+  // Generate valid URL IDs without loose trailing hyphens
+  const anime_id = cleanedTitle.replace(/\s+/g, '-').replace(/-+$/, '');
   
-  // Capitalize title for the UI
-  const clean_title_display = cleanedTitle.replace(/\b\w/g, l => l.toUpperCase());
+  // Title capitalization formatting for display
+  const clean_title_display = cleanedTitle
+    .replace(/\b\w/g, l => l.toUpperCase())
+    .trim();
 
   return {
     status: "success",

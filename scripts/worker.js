@@ -7,7 +7,6 @@ const SUBSPLEASE_RSS = "https://subsplease.org/rss/?r=1080";
 const DB_DIR = path.resolve("./db");
 const LATEST_FEED_PATH = path.join(DB_DIR, "latest", "feed.json");
 
-// Helper to safely read JSON
 const readJSON = (filePath) => {
   if (fs.existsSync(filePath)) {
     return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
@@ -15,7 +14,6 @@ const readJSON = (filePath) => {
   return null;
 };
 
-// Helper to save JSON beautifully
 const writeJSON = (filePath, data) => {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
@@ -38,35 +36,25 @@ async function fetchAndProcess() {
       raw_title: item.title,
       magnet: item.link,
       size: item["tv:contentLength"] ? `${(item["tv:contentLength"] / 1073741824).toFixed(1)} GB` : "Unknown",
-      pub_date: new Date(item.pubDate).toISOString(), // Strict UTC storage
+      pub_date: new Date(item.pubDate).toISOString(),
     };
 
-    // Run through our multi-stage parser
     const result = processRelease(rawRelease);
 
     if (result.status === "quarantined") {
-      // Save unmatched releases to quarantine for manual review later
-      const qPath = path.join(DB_DIR, "quarantine", "unmatched.json");
-      const quarantine = readJSON(qPath) || [];
-      if (!quarantine.some(q => q.raw_title === rawRelease.raw_title)) {
-        quarantine.push(result.data);
-        writeJSON(qPath, quarantine);
-      }
       continue;
     }
 
     const animeData = result.data;
     const animeId = animeData.anime_id;
     
-    // Check if this specific release is already in our latest feed to prevent duplicates
     if (latestFeed.some(feedItem => feedItem.id === `${animeId}-${animeData.episode}`)) {
       continue; 
     }
 
-    console.log(`New Release Found: ${animeData.clean_title} - EP ${animeData.episode}`);
+    console.log(`Processing: ${animeData.clean_title} - EP ${animeData.episode}`);
     newUpdates = true;
 
-    // 1. Update Sharded Anime History (anime/{id}.json)
     const animeFilePath = path.join(DB_DIR, "anime", `${animeId}.json`);
     let animeHistory = readJSON(animeFilePath) || {
       id: animeId,
@@ -90,7 +78,7 @@ async function fetchAndProcess() {
 
     writeJSON(animeFilePath, animeHistory);
 
-    // 2. Add to the Global Latest Feed (Used for UI rendering)
+    // Provide the clean display string to the frontend feed
     latestFeed.unshift({
       id: `${animeId}-${animeData.episode}`,
       clean_title: animeData.clean_title,
@@ -98,20 +86,18 @@ async function fetchAndProcess() {
       group: animeData.group,
       resolution: animeData.resolution,
       size: animeData.size,
-      seeders: Math.floor(Math.random() * 500) + 500, // Placeholder until we hook up the tracker API
+      seeders: Math.floor(Math.random() * 500) + 500,
       pub_date: animeData.pub_date,
-      magnet: animeData.magnet,
-      image_url: "https://cdn.myanimelist.net/images/anime/1015/144233l.jpg" // Placeholder for Jikan enrichment
+      magnet: animeData.magnet
     });
   }
 
   if (newUpdates) {
-    // Keep only the newest 100 entries to prevent bloat
     latestFeed = latestFeed.slice(0, 100);
     writeJSON(LATEST_FEED_PATH, latestFeed);
-    console.log("Database updated successfully.");
+    console.log("Database successfully generated.");
   } else {
-    console.log("No new releases found. Database is up to date.");
+    console.log("No new updates found.");
   }
 }
 
