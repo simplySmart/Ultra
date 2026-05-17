@@ -19,7 +19,6 @@ export default function App() {
     sort: 'Latest'
   });
 
-  // Fetch the Static JSON Database
   useEffect(() => {
     const fetchFeed = async () => {
       try {
@@ -41,7 +40,6 @@ export default function App() {
     setFilters(prev => ({ ...prev, [key]: value }));
   };
 
-  // Group items by Local Device Date
   const groupedItems = items.reduce((groups, item) => {
     const date = new Date(item.pub_date);
     const today = new Date();
@@ -153,7 +151,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* Dynamic Content Loading */}
         {loading ? (
           <div className="flex flex-col items-center justify-center py-20 text-gray-400 gap-4">
             <Loader2 className="animate-spin text-purple-500" size={32} />
@@ -161,7 +158,7 @@ export default function App() {
           </div>
         ) : items.length === 0 ? (
           <div className="text-center py-20 text-gray-400">
-            <p>No releases found. Make sure GitHub Pages is enabled and the workflow has finished!</p>
+            <p>No releases found. Run the GitHub Action manually to sync the updated titles.</p>
           </div>
         ) : (
           <div className="flex flex-col gap-6">
@@ -185,6 +182,10 @@ export default function App() {
 function ReleaseCard({ item, viewMode }) {
   const isList = viewMode === 'list';
   
+  // Clean fallback title matching for the dynamic thumbnail lookup API
+  const encodedTitle = encodeURIComponent(item.clean_title.trim());
+  const fallbackThumb = `https://images.weserv.nl/?url=https://avatar.iran.liara.run/username?username=${encodedTitle}&bg=7C3AED&color=ffffff`;
+
   const CustomMagnet = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M5 8V12C5 15.866 8.13401 19 12 19C15.866 19 19 15.866 19 12V8"/>
@@ -195,23 +196,17 @@ function ReleaseCard({ item, viewMode }) {
   return (
     <div className={`bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow group ${isList ? 'flex p-3 gap-3 sm:gap-4' : 'flex flex-col p-4 gap-4'}`}>
       <div className={`relative shrink-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-200 ${isList ? 'w-24 sm:w-40 aspect-video sm:h-[90px]' : 'w-full aspect-video'}`}>
-        {item.image_url ? (
-          <img 
-            src={item.image_url} 
-            alt={item.clean_title} 
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center text-gray-300">
-            <ImageIcon size={32} />
-          </div>
-        )}
+        <img 
+          src={fallbackThumb} 
+          alt={item.clean_title} 
+          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        />
       </div>
 
       <div className="flex flex-col flex-1 min-w-0 justify-between">
         <div>
-          <h2 className="font-bold text-gray-900 text-base sm:text-lg truncate mb-1.5">{item.clean_title}</h2>
+          <h2 className="font-bold text-gray-900 text-base sm:text-lg truncate mb-1.5" title={item.clean_title}>{item.clean_title}</h2>
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2">
             <span className="px-2 py-0.5 bg-[#F3F4F6] text-gray-600 text-xs font-semibold rounded-md border border-gray-200">
               EP {item.episode}
