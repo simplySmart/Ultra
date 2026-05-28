@@ -2,6 +2,17 @@
   "id": "honzuki-no-gekokujou-s4",
   "title": "Honzuki No Gekokujou S4",
   "poster": "https://cdn.myanimelist.net/images/anime/1371/155054l.jpg",
+  "details": {
+    "poster": "https://cdn.myanimelist.net/images/anime/1371/155054l.jpg",
+    "synopsis": "Anime adaptation of part three of the Honzuki no Gekokujou light novel.",
+    "score": 7.97,
+    "genres": [
+      "Fantasy"
+    ],
+    "status": "Currently Airing",
+    "year": 2026,
+    "episodes": "Ongoing"
+  },
   "episodes": {
     "07": {
       "released_at": "2026-05-23T09:31:52.000Z",

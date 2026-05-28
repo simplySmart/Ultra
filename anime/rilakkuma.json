@@ -2,6 +2,17 @@
   "id": "rilakkuma",
   "title": "Rilakkuma",
   "poster": "https://cdn.myanimelist.net/images/anime/1956/155696l.jpg",
+  "details": {
+    "poster": "https://cdn.myanimelist.net/images/anime/1956/155696l.jpg",
+    "synopsis": "Experience the stress-free world of Rilakkuma, the relaxed bear who makes being lazy look effortless!\n\n(Source: Crunchyroll)",
+    "score": 6.23,
+    "genres": [
+      "Slice of Life"
+    ],
+    "status": "Currently Airing",
+    "year": 2026,
+    "episodes": "Ongoing"
+  },
   "episodes": {
     "08": {
       "released_at": "2026-05-23T01:00:20.000Z",
