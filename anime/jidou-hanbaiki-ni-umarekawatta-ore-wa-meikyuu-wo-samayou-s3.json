@@ -14,7 +14,7 @@
     "year": 2023,
     "episodes": 12
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "09": {
       "released_at": "2026-05-27T14:04:24.000Z",
