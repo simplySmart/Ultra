@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 13
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "08": {
       "released_at": "2026-05-26T14:34:07.000Z",
@@ -24,83 +24,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:JL42LET3VCM2S3A2FVAIGV5D5GDCEG3S&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2008%20%281080p%29%20%5BA33A2091%5D.mkv&xl=1464471000&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-05-19T14:34:01.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:4f3a239d9c0713f80c2336ee0a61c6c0f4c4102a&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2007%20(1080p)%20%5B0428E348%5D.mkv",
-          "size": "1.4 GiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-05-12T14:33:26.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:28f47910d5e9ced2e3392d693cfbde5c1527a1ff&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2006%20(1080p)%20%5B828FFC6B%5D.mkv",
-          "size": "1.4 GiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-05-05T14:34:33.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:cd9fa48a9b8b06a5e192ab2164122e71ee0eb499&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2005%20(1080p)%20%5B8BFA4226%5D.mkv",
-          "size": "1.4 GiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-28T14:33:48.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:f1b3a698e777e401291119d0e2889676d722b0b3&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2004%20(1080p)%20%5B08E275BC%5D.mkv",
-          "size": "1.4 GiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-21T14:33:14.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:a77011aaf206813c4b2c3b2655a122ac81831a30&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2003%20(1080p)%20%5BD5E19181%5D.mkv",
-          "size": "1.4 GiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-14T14:36:28.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:5b742df85642ef36091d41958f1ffd1ef3545992&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2002%20(1080p)%20%5B2EA70233%5D.mkv",
-          "size": "1.4 GiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-07T14:33:55.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:f9a8b6399652644803e3713933b62b83b4179b38&dn=%5BSubsPlease%5D%20MARRIAGETOXIN%20-%2001%20(1080p)%20%5B260591E3%5D.mkv",
-          "size": "1.4 GiB"
         }
       ]
     }

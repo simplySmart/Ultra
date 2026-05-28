@@ -14,30 +14,8 @@
     "year": 2017,
     "episodes": 12
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
-    "10": {
-      "released_at": "2026-05-13T12:32:07.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:c1ced70413241aaff91ef36b2e082fe86f0e88aa&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2010%20(1080p)%20%5BDF62F816%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "11": {
-      "released_at": "2026-05-20T12:32:01.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:7ddf0ff4d9aa580f97b98d7a9e666f39210ebfe3&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2011%20(1080p)%20%5B9D42CFC2%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
     "12": {
       "released_at": "2026-05-27T12:32:11.000Z",
       "releases": [
@@ -46,105 +24,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:JD6XSSHZMYJMNSU3VO45W7RPIE3QQBLL&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2012%20%281080p%29%20%5BFF15FF0C%5D.mkv&xl=1447815588&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "09": {
-      "released_at": "2026-05-06T12:32:02.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:51c925434a6fd3596a19afc77036a2a46c187fb1&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2009%20(1080p)%20%5B82B1FFE9%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "08": {
-      "released_at": "2026-04-29T12:32:15.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:27d3b26c1ce93f83e955b780b6ef81e54afac822&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2008%20(1080p)%20%5BAB69DDFC%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-04-22T12:32:12.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:acec444dee806489aab3d4a3a20dc00641420b66&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2007%20(1080p)%20%5B0369E98A%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-04-15T12:33:23.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:57bee05c8a57eefc23bc1eec5497fbf1cadc6b72&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2006%20(1080p)%20%5B3DE92A31%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-04-08T12:33:30.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:7a7baaecbe19b003fd264ff9aadd588cc623705b&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2005%20(1080p)%20%5BC7B336AC%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-01T13:29:13.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:da0533a6237b73f89146f662fd21d576c1148e9d&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2004%20(1080p)%20%5BBC63F30F%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-01T13:26:52.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:3a1a440e73595b4b0d7766093c4c6a0d222a74a1&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2003%20(1080p)%20%5BF76F3281%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-01T13:24:54.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:785e5d766b283a11ce9ac7823d673d6e5addc3db&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2002%20(1080p)%20%5B15568CAC%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-01T13:22:48.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:31e70d029e0c03646433c5adbb115936de18ee97&dn=%5BSubsPlease%5D%20Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e%20S4%20-%2001%20(1080p)%20%5B78E7377B%5D.mkv",
-          "size": "1.3 GiB"
         }
       ]
     }

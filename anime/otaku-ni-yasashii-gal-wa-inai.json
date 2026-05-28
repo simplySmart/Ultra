@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "08": {
       "released_at": "2026-05-27T15:47:12.000Z",
@@ -24,83 +24,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:XX22YEQWTRK3ZCO2POROTV47L5MWE3CV&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2008%20%281080p%29%20%5BC6447C83%5D.mkv&xl=1415579502&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-05-20T15:47:05.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:b6c8574e55e58521054bbf5b68e6544c3753d086&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2007%20(1080p)%20%5B22627C4B%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-05-13T15:46:50.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:5804feda8ad9bf7d42984df8e6de1ec1eefd4d04&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2006%20(1080p)%20%5B6DA649F2%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-05-06T15:47:10.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:315dd3c8ec82c3b6c39b66b64d68308e4d1677fc&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2005%20(1080p)%20%5BAA415EF1%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-29T15:47:18.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:c3654953149f68d2b7fced4811c2bee785a1287e&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2004%20(1080p)%20%5B8C3CF04E%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-22T15:47:26.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:dde2ad5b7e64223c7959be58a079d6b200700015&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2003%20(1080p)%20%5B4801DFA3%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-15T15:47:35.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:dd3024599b3ec527784f6fa3de6c4e160a449e58&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2002%20(1080p)%20%5B9AA80280%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-08T15:48:18.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:00237d873da686864af121f5630ad8da08506c05&dn=%5BSubsPlease%5D%20Otaku%20ni%20Yasashii%20Gal%20wa%20Inai%20-%2001%20(1080p)%20%5BC504D228%5D.mkv",
-          "size": "1.3 GiB"
         }
       ]
     }

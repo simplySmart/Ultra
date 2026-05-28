@@ -14,7 +14,7 @@
     "year": 2023,
     "episodes": 12
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "08": {
       "released_at": "2026-05-25T14:02:53.000Z",
@@ -24,83 +24,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:ES3NSY535Y4SZT44XVAOGTKWEQCAW5FY&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2008%20%281080p%29%20%5B02B5FDFE%5D.mkv&xl=978754188&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-05-18T14:02:47.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:c9751afa9d87498ffebe148b796757447e79a3fd&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2007%20(1080p)%20%5B8322CCD7%5D.mkv",
-          "size": "933.7 MiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-05-11T14:01:48.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:b0533fe785c4a19d81c852939ceb1e07fc458450&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2006%20(1080p)%20%5B7DF701F0%5D.mkv",
-          "size": "934.6 MiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-05-04T14:02:23.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:3144deaf1db53dd94ed79319e8dc88a022e1c63a&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2005%20(1080p)%20%5B6706CE18%5D.mkv",
-          "size": "933.0 MiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-27T14:04:54.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:a226caefe1f7f512bce64d5ac7a69dec20efd9f4&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2004%20(1080p)%20%5B3C75B964%5D.mkv",
-          "size": "932.0 MiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-20T14:03:43.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:1fea5d4e54bc07ee83d5befadb8ce48717169370&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2003%20(1080p)%20%5B7EF058E0%5D.mkv",
-          "size": "933.5 MiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-13T14:03:36.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:8285ce4d9ca4546129254193ec7b229e25c5f19a&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2002%20(1080p)%20%5B2E093CD2%5D.mkv",
-          "size": "933.7 MiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-06T14:03:21.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:e238b824f1430f2028d2a428dd41910bd8a7bb92&dn=%5BSubsPlease%5D%20Isekai%20Nonbiri%20Nouka%20S2%20-%2001%20(1080p)%20%5B512B7FF0%5D.mkv",
-          "size": "932.4 MiB"
         }
       ]
     }

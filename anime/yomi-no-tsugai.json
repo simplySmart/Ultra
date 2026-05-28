@@ -15,7 +15,7 @@
     "year": 2026,
     "episodes": 24
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "08": {
       "released_at": "2026-05-23T16:00:58.000Z",
@@ -25,83 +25,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:JWAJYBLGP2QUPEJ2X7FFY2SYZNOFR3QS&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2008%20%281080p%29%20%5B6E283B15%5D.mkv&xl=1446051067&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-05-16T16:01:11.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:e472c566d49097e8b1c4d5ae263ea45fa74903bf&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2007%20(1080p)%20%5B1018FE7E%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-05-09T16:01:03.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:bb4513133409b4227cea3ba0949d8575b4bc2ba6&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2006%20(1080p)%20%5BCEA7A871%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-05-02T16:01:00.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:42abcec2caf0eaaf137b0d5c64f30e73b3d1a34d&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2005%20(1080p)%20%5BC40176D5%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-25T16:02:42.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:6ea561a12d1518803c24793900b46f869770015f&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2004%20(1080p)%20%5BAE8641CC%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-18T16:03:13.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:864217a66f29b535909bf2d62d377ecf3a4242a3&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2003%20(1080p)%20%5BC212B7B5%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-11T16:03:05.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:35395a43f85de26ee916838b1ec36339e1827193&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2002%20(1080p)%20%5B81EC5E72%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-04T16:03:17.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:fe85f74914dbc1eb975ee52703029c5b9b84dd84&dn=%5BSubsPlease%5D%20Yomi%20no%20Tsugai%20-%2001%20(1080p)%20%5B4F99D288%5D.mkv",
-          "size": "1.3 GiB"
         }
       ]
     }

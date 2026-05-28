@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": "Ongoing"
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "08": {
       "released_at": "2026-05-26T17:37:09.000Z",
@@ -24,83 +24,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:B7CCFLPPUTATSHL2ALKC6IA2W74DPJTM&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu%21%20-%2008%20%281080p%29%20%5BF01FC920%5D.mkv&xl=1397809630&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-05-19T17:37:09.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:6ccfcc2a70999389cc0dc19a7a36cd237437ad97&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2007%20(1080p)%20%5B1715FE83%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-05-12T17:37:04.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:ecc0af397345346ec421444f73719327b6db8580&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2006%20(1080p)%20%5B562E2A5A%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-05-05T17:36:48.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:1837cff1b1be2ebfca8f56830df96df49ef5cd65&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2005%20(1080p)%20%5BE638B436%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-28T17:37:03.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:abd38488ae0d4a51cbb1d7defb6c59d6b74c943f&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2004%20(1080p)%20%5B3773E391%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-21T17:36:53.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:19a0d9d076eeaeb46323ad39b81aa1bc4ddb9316&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2003%20(1080p)%20%5BC822A0AC%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-14T17:37:04.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:be3f83bc8b437fba17a961bf471ae13e7aa8fe9c&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2002%20(1080p)%20%5B2185D11D%5D.mkv",
-          "size": "1.3 GiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-07T17:38:38.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:8942bc6a9e40601d457cd7464a95f9e96c870b36&dn=%5BSubsPlease%5D%20Tadaima%2C%20Ojamasaremasu!%20-%2001%20(1080p)%20%5BCF94A998%5D.mkv",
-          "size": "1.3 GiB"
         }
       ]
     }

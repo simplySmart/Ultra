@@ -13,7 +13,7 @@
     "year": 2023,
     "episodes": 12
   },
-  "backfilled": true,
+  "backfilled": false,
   "episodes": {
     "08": {
       "released_at": "2026-05-26T13:33:40.000Z",
@@ -23,83 +23,6 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:W4C2OVE32OM7CR4B4UXHISSCR5IZS2CI&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2008%20%281080p%29%20%5BC1AC38B9%5D.mkv&xl=971802413&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
-        }
-      ]
-    },
-    "07": {
-      "released_at": "2026-05-19T13:33:33.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:1d1c2a58eebc9506570f33a193381514320fd9c0&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2007%20(1080p)%20%5B7B6E4D6F%5D.mkv",
-          "size": "925.5 MiB"
-        }
-      ]
-    },
-    "06": {
-      "released_at": "2026-05-12T13:34:30.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:8ba06be1d35e52fc98dd8eee7ee142d2f94056a2&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2006%20(1080p)%20%5BC08464F3%5D.mkv",
-          "size": "925.0 MiB"
-        }
-      ]
-    },
-    "05": {
-      "released_at": "2026-05-05T13:35:27.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:c06cfa1544550d1ad93ee42c1eb2fc23418a8288&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2005%20(1080p)%20%5BF4C13EDF%5D.mkv",
-          "size": "926.6 MiB"
-        }
-      ]
-    },
-    "04": {
-      "released_at": "2026-04-28T13:34:27.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:2fe112413f163cb13a7e02a5175330d5915f4504&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2004%20(1080p)%20%5BCE913061%5D.mkv",
-          "size": "926.9 MiB"
-        }
-      ]
-    },
-    "03": {
-      "released_at": "2026-04-21T13:33:34.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:8231d0130f5fc6b0f7d676047c6bb6c3dac2f8c0&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2003%20(1080p)%20%5BCB059671%5D.mkv",
-          "size": "923.3 MiB"
-        }
-      ]
-    },
-    "02": {
-      "released_at": "2026-04-14T13:33:31.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:e00f1950efe2a3d729ea64805117c5fa61427bb2&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2002%20(1080p)%20%5BD898CB39%5D.mkv",
-          "size": "924.1 MiB"
-        }
-      ]
-    },
-    "01": {
-      "released_at": "2026-04-07T13:32:58.000Z",
-      "releases": [
-        {
-          "group": "SubsPlease",
-          "resolution": "1080p",
-          "magnet": "magnet:?xt=urn:btih:da58237cdf39477e34ff27b7360725f0bd2cd0f4&dn=%5BSubsPlease%5D%20LasTame%20S2%20-%2001%20(1080p)%20%5B2E0A7694%5D.mkv",
-          "size": "925.7 MiB"
         }
       ]
     }
