@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Bookmark, Menu, Download, Monitor, SlidersHorizontal, List, LayoutGrid, Loader2 } from 'lucide-react';
+import { Search, Bookmark, Menu, Download, Monitor, SlidersHorizontal, List, LayoutGrid, Loader2, ChevronLeft, ChevronRight } from 'lucide-react';
 import ReleaseCard from './components/ReleaseCard';
 import AnimeViewer from './components/AnimeViewer';
 
@@ -10,8 +10,11 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState('list'); 
   const [selectedAnimeId, setSelectedAnimeId] = useState(null);
-  
   const [filters, setFilters] = useState({ resolution: '1080p' });
+  
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 30;
 
   useEffect(() => {
     const fetchFeed = async () => {
@@ -31,11 +34,8 @@ export default function App() {
 
   useEffect(() => {
     const handlePopState = (event) => {
-      if (event.state && event.state.animeId) {
-        setSelectedAnimeId(event.state.animeId);
-      } else {
-        setSelectedAnimeId(null);
-      }
+      if (event.state && event.state.animeId) setSelectedAnimeId(event.state.animeId);
+      else setSelectedAnimeId(null);
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -52,7 +52,20 @@ export default function App() {
     return <AnimeViewer animeId={selectedAnimeId} onBack={closeAnime} />;
   }
 
-  const groupedItems = items.reduce((groups, item) => {
+  // 1. Apply Filters
+  const filteredItems = items.filter(item => {
+    if (filters.resolution !== 'All Res' && item.resolution !== filters.resolution) return false;
+    return true;
+  });
+
+  // 2. Apply Pagination
+  const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
+
+  // 3. Group the current page items
+  const groupedItems = currentItems.reduce((groups, item) => {
     const date = new Date(item.pub_date);
     const today = new Date();
     let key = date.toLocaleDateString(undefined, { weekday: 'long', month: 'short', day: 'numeric' });
@@ -65,7 +78,7 @@ export default function App() {
   }, {});
 
   return (
-    <div className="min-h-screen bg-[#F8F9FB] text-gray-900 font-sans">
+    <div className="min-h-screen bg-[#F8F9FB] text-gray-900 font-sans pb-10">
       <nav className="bg-white border-b border-gray-100 px-6 py-4 flex items-center justify-between sticky top-0 z-50 shadow-sm">
         <div className="text-xl font-bold tracking-tight text-gray-900">NEXTTOSHO</div>
         <div className="flex items-center gap-6 text-gray-600">
@@ -89,7 +102,7 @@ export default function App() {
             <Monitor className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
             <select 
               value={filters.resolution}
-              onChange={(e) => setFilters(prev => ({ ...prev, resolution: e.target.value }))}
+              onChange={(e) => { setFilters({ resolution: e.target.value }); setCurrentPage(1); }}
               className="w-full pl-10 pr-4 py-2.5 bg-white border border-gray-200 rounded-xl appearance-none outline-none focus:border-purple-300 focus:ring-2 focus:ring-purple-100 font-medium text-gray-700"
             >
               <option>All Res</option><option>1080p</option><option>720p</option>
@@ -116,7 +129,7 @@ export default function App() {
             <Loader2 className="animate-spin text-purple-500" size={32} />
             <p>Syncing release feed...</p>
           </div>
-        ) : items.length === 0 ? (
+        ) : filteredItems.length === 0 ? (
           <div className="text-center py-20 text-gray-400"><p>No releases found.</p></div>
         ) : (
           <div className="flex flex-col gap-6">
@@ -135,6 +148,27 @@ export default function App() {
                 </div>
               </div>
             ))}
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="flex justify-center items-center gap-6 mt-10">
+                <button 
+                  onClick={() => { setCurrentPage(p => Math.max(1, p - 1)); window.scrollTo(0, 0); }}
+                  disabled={currentPage === 1}
+                  className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white border border-gray-200 text-gray-700 disabled:opacity-40 font-bold hover:bg-purple-50 hover:text-purple-700 transition-colors shadow-sm"
+                >
+                  <ChevronLeft size={18} /> Prev
+                </button>
+                <span className="text-gray-500 font-bold text-sm">Page {currentPage} of {totalPages}</span>
+                <button 
+                  onClick={() => { setCurrentPage(p => Math.min(totalPages, p + 1)); window.scrollTo(0, 0); }}
+                  disabled={currentPage === totalPages}
+                  className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white border border-gray-200 text-gray-700 disabled:opacity-40 font-bold hover:bg-purple-50 hover:text-purple-700 transition-colors shadow-sm"
+                >
+                  Next <ChevronRight size={18} />
+                </button>
+              </div>
+            )}
           </div>
         )}
       </main>

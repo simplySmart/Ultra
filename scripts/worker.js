@@ -19,9 +19,7 @@ const writeJSON = (filePath, data) => {
 
 async function fetchAndProcess() {
   console.log("Starting Indexer Engine...");
-  
   const items = await fetchSubsPlease();
-
   let latestFeed = readJSON(LATEST_FEED_PATH) || [];
   let newUpdates = false;
   let newEntries = []; 
@@ -45,79 +43,54 @@ async function fetchAndProcess() {
 
     const animeFilePath = path.join(DB_DIR, "anime", `${animeId}.json`);
     let animeHistory = readJSON(animeFilePath) || {
-      id: animeId,
-      title: animeData.clean_title,
-      poster: null,
-      details: null,
-      backfilled: false, // New tracker so we don't spam the API
-      episodes: {}
+      id: animeId, title: animeData.clean_title, poster: null, details: null, backfilled: false, episodes: {}
     };
 
-    // 1. Fetch Rich Metadata
     if (!animeHistory.details) {
       const details = await fetchAnimeDetails(animeData.clean_title);
       animeHistory.details = details || {};
       animeHistory.poster = details?.poster || animeHistory.poster;
     }
 
-    // 2. NEW: Backfill Historical Episodes
     if (!animeHistory.backfilled) {
       const oldEpisodes = await backfillSubsPlease(animeId);
       for (const item of oldEpisodes) {
         if (!animeHistory.episodes[item.episode]) {
-          animeHistory.episodes[item.episode] = {
-             released_at: item.pub_date,
-             releases: []
-          };
+          animeHistory.episodes[item.episode] = { released_at: item.pub_date, releases: [] };
         }
-        // Prevent duplicates
         const existing = animeHistory.episodes[item.episode].releases.find(r => r.group === item.group && r.resolution === item.resolution);
         if (!existing) {
-           animeHistory.episodes[item.episode].releases.push({
-             group: item.group,
-             resolution: item.resolution,
-             magnet: item.magnet,
-             size: item.size
-           });
+           animeHistory.episodes[item.episode].releases.push({ group: item.group, resolution: item.resolution, magnet: item.magnet, size: item.size });
         }
       }
-      animeHistory.backfilled = true; // Mark as complete!
+      animeHistory.backfilled = true; 
     }
 
-    // 3. Add the latest episode from the live RSS
     if (!animeHistory.episodes[animeData.episode]) {
-      animeHistory.episodes[animeData.episode] = {
-        released_at: animeData.pub_date,
-        releases: []
-      };
+      animeHistory.episodes[animeData.episode] = { released_at: animeData.pub_date, releases: [] };
     }
     
     animeHistory.episodes[animeData.episode].releases.push({
-      group: animeData.group,
-      resolution: animeData.resolution,
-      magnet: animeData.magnet,
-      size: animeData.size
+      group: animeData.group, resolution: animeData.resolution, magnet: animeData.magnet, size: animeData.size
     });
 
     writeJSON(animeFilePath, animeHistory);
 
     newEntries.push({
-      id: `${animeId}-${animeData.episode}`,
-      anime_id: animeId,
-      clean_title: animeData.clean_title,
-      episode: animeData.episode,
-      group: animeData.group,
-      resolution: animeData.resolution,
-      seeders: Math.floor(Math.random() * 500) + 500,
-      pub_date: animeData.pub_date,
-      magnet: animeData.magnet,
-      poster: animeHistory.poster
+      id: `${animeId}-${animeData.episode}`, anime_id: animeId, clean_title: animeData.clean_title,
+      episode: animeData.episode, group: animeData.group, resolution: animeData.resolution,
+      seeders: Math.floor(Math.random() * 500) + 500, pub_date: animeData.pub_date,
+      magnet: animeData.magnet, poster: animeHistory.poster
     });
   }
 
   if (newUpdates) {
-    latestFeed = [...newEntries, ...latestFeed].slice(0, 100);
-    writeJSON(LATEST_FEED_PATH, latestFeed);
+    // THE FIX: Keep all history, deduplicate, and sort!
+    const combined = [...newEntries, ...latestFeed];
+    const uniqueFeed = Array.from(new Map(combined.map(item => [item.id, item])).values());
+    uniqueFeed.sort((a, b) => new Date(b.pub_date) - new Date(a.pub_date));
+    
+    writeJSON(LATEST_FEED_PATH, uniqueFeed);
     console.log("Database successfully generated.");
   } else {
     console.log("No new updates found.");
