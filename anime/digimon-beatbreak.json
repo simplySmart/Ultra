@@ -15,6 +15,7 @@
     "year": 2025,
     "episodes": "Ongoing"
   },
+  "backfilled": true,
   "episodes": {
     "32": {
       "released_at": "2026-05-24T03:01:58.000Z",
