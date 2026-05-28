@@ -19,6 +19,10 @@ const writeJSON = (filePath, data) => {
 
 async function fetchAndProcess() {
   console.log("Starting Indexer Engine...");
+  
+  // ==========================================
+  // PHASE 1: Parse Live RSS for New Drops
+  // ==========================================
   const items = await fetchSubsPlease();
   let latestFeed = readJSON(LATEST_FEED_PATH) || [];
   let newUpdates = false;
@@ -35,10 +39,10 @@ async function fetchAndProcess() {
       latestFeed.some(f => f.id === `${animeId}-${animeData.episode}`) ||
       newEntries.some(f => f.id === `${animeId}-${animeData.episode}`)
     ) {
-      continue;
+      continue; // Already processed this specific episode
     }
 
-    console.log(`Processing: ${animeData.clean_title} - EP ${animeData.episode}`);
+    console.log(`[RSS] New Episode Detected: ${animeData.clean_title} - EP ${animeData.episode}`);
     newUpdates = true;
 
     const animeFilePath = path.join(DB_DIR, "anime", `${animeId}.json`);
@@ -50,26 +54,6 @@ async function fetchAndProcess() {
       const details = await fetchAnimeDetails(animeData.clean_title);
       animeHistory.details = details || {};
       animeHistory.poster = details?.poster || animeHistory.poster;
-    }
-
-    // THE FIX: If backfill returns empty, do NOT mark it as completely backfilled. Give it another chance later.
-    if (!animeHistory.backfilled) {
-      const oldEpisodes = await backfillSubsPlease(animeId);
-      if (oldEpisodes.length > 0) {
-          for (const item of oldEpisodes) {
-            if (!animeHistory.episodes[item.episode]) {
-              animeHistory.episodes[item.episode] = { released_at: item.pub_date, releases: [] };
-            }
-            const existing = animeHistory.episodes[item.episode].releases.find(r => r.group === item.group && r.resolution === item.resolution);
-            if (!existing) {
-               animeHistory.episodes[item.episode].releases.push({ group: item.group, resolution: item.resolution, magnet: item.magnet, size: item.size });
-            }
-          }
-          animeHistory.backfilled = true;
-          console.log(`[Backfill] Successfully saved ${oldEpisodes.length} historical episodes for ${animeId}`);
-      } else {
-          console.log(`[Backfill] Skipped locking ${animeId} to allow future retries.`);
-      }
     }
 
     if (!animeHistory.episodes[animeData.episode]) {
@@ -90,15 +74,57 @@ async function fetchAndProcess() {
     });
   }
 
+  // ==========================================
+  // PHASE 2: The Great Backfill Sweep
+  // ==========================================
+  console.log("Starting DB Sweep for missing historical episodes...");
+  const animeDir = path.join(DB_DIR, "anime");
+  if (fs.existsSync(animeDir)) {
+      const files = fs.readdirSync(animeDir).filter(f => f.endsWith('.json'));
+      for (const file of files) {
+          const filePath = path.join(animeDir, file);
+          const animeHistory = readJSON(filePath);
+          
+          if (animeHistory && animeHistory.backfilled === false) {
+              console.log(`[Sweep] Attempting backfill for: ${animeHistory.id}`);
+              const oldEpisodes = await backfillSubsPlease(animeHistory.id);
+              
+              if (oldEpisodes && oldEpisodes.length > 0) {
+                  let added = 0;
+                  for (const item of oldEpisodes) {
+                      if (!animeHistory.episodes[item.episode]) {
+                          animeHistory.episodes[item.episode] = { released_at: item.pub_date, releases: [] };
+                      }
+                      const existing = animeHistory.episodes[item.episode].releases.find(r => r.group === item.group && r.resolution === item.resolution);
+                      if (!existing) {
+                          animeHistory.episodes[item.episode].releases.push({ 
+                              group: item.group, resolution: item.resolution, magnet: item.magnet, size: item.size 
+                          });
+                          added++;
+                      }
+                  }
+                  animeHistory.backfilled = true; // Mark as successfully fetched!
+                  writeJSON(filePath, animeHistory);
+                  console.log(`[Sweep] Success! Added ${added} old episodes to ${animeHistory.title}`);
+              } else {
+                  console.log(`[Sweep] No historical data found for ${animeHistory.id} yet.`);
+              }
+          }
+      }
+  }
+
+  // ==========================================
+  // PHASE 3: Save Master Feed
+  // ==========================================
   if (newUpdates) {
     const combined = [...newEntries, ...latestFeed];
     const uniqueFeed = Array.from(new Map(combined.map(item => [item.id, item])).values());
     uniqueFeed.sort((a, b) => new Date(b.pub_date) - new Date(a.pub_date));
 
     writeJSON(LATEST_FEED_PATH, uniqueFeed);
-    console.log("Database successfully generated.");
+    console.log("Database master feed successfully updated.");
   } else {
-    console.log("No new updates found.");
+    console.log("No new updates for master feed.");
   }
 }
 
