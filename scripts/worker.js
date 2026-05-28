@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
 import { processRelease } from './parser.js';
-import { fetchPoster } from './api/jikan.js';
+import { fetchAnimeDetails } from './api/jikan.js';
 
 const SUBSPLEASE_RSS = "https://subsplease.org/rss/?r=1080";
 const DB_DIR = path.resolve("./db");
@@ -62,11 +62,15 @@ async function fetchAndProcess() {
       id: animeId,
       title: animeData.clean_title,
       poster: null,
+      details: null, // New rich metadata object
       episodes: {}
     };
 
-    if (!animeHistory.poster) {
-      animeHistory.poster = await fetchPoster(animeData.clean_title);
+    // If we don't have rich details yet, fetch them!
+    if (!animeHistory.details) {
+      const details = await fetchAnimeDetails(animeData.clean_title);
+      animeHistory.details = details || {};
+      animeHistory.poster = details?.poster || animeHistory.poster;
     }
 
     if (!animeHistory.episodes[animeData.episode]) {
@@ -87,6 +91,7 @@ async function fetchAndProcess() {
 
     newEntries.push({
       id: `${animeId}-${animeData.episode}`,
+      anime_id: animeId, // Explicitly pass the ID for frontend routing
       clean_title: animeData.clean_title,
       episode: animeData.episode,
       group: animeData.group,
