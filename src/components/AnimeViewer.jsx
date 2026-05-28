@@ -30,23 +30,8 @@ export default function AnimeViewer({ animeId, onBack }) {
     fetchDetails();
   }, [animeId]);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-[#F8F9FB] flex flex-col items-center justify-center text-gray-400 gap-4">
-        <Loader2 className="animate-spin text-purple-500" size={32} />
-        <p>Loading full database...</p>
-      </div>
-    );
-  }
-
-  if (!animeData) {
-    return (
-      <div className="min-h-screen bg-[#F8F9FB] flex flex-col items-center justify-center p-6 text-center">
-        <p className="text-gray-500 mb-4">Failed to load series history.</p>
-        <button onClick={onBack} className="text-purple-600 font-bold hover:underline">Go Back</button>
-      </div>
-    );
-  }
+  if (loading) return <div className="min-h-screen bg-[#F8F9FB] flex flex-col items-center justify-center text-gray-400 gap-4"><Loader2 className="animate-spin text-purple-500" size={32} /><p>Loading full database...</p></div>;
+  if (!animeData) return <div className="min-h-screen bg-[#F8F9FB] flex flex-col items-center justify-center p-6 text-center"><p className="text-gray-500 mb-4">Failed to load series history.</p><button onClick={onBack} className="text-purple-600 font-bold hover:underline">Go Back</button></div>;
 
   const details = animeData.details || {};
   const encodedTitle = encodeURIComponent(animeData.title);
@@ -56,9 +41,7 @@ export default function AnimeViewer({ animeId, onBack }) {
   return (
     <div className="min-h-screen bg-[#F8F9FB] text-gray-900 pb-20 animate-in fade-in duration-300">
       <nav className="bg-white border-b border-gray-100 px-4 sm:px-6 py-4 sticky top-0 z-50">
-        <button onClick={onBack} className="flex items-center gap-2 text-purple-600 font-semibold hover:text-purple-800 transition-colors">
-          <ArrowLeft size={20} /> Back to Releases
-        </button>
+        <button onClick={onBack} className="flex items-center gap-2 text-purple-600 font-semibold hover:text-purple-800 transition-colors"><ArrowLeft size={20} /> Back to Releases</button>
       </nav>
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 mb-10">
@@ -68,42 +51,24 @@ export default function AnimeViewer({ animeId, onBack }) {
           <div className="flex flex-col justify-center">
             <h1 className="text-3xl font-extrabold text-gray-900 mb-3 text-center sm:text-left">{animeData.title}</h1>
             <div className="flex flex-wrap justify-center sm:justify-start items-center gap-3 mb-4">
-              {details.score && details.score !== "N/A" && (
-                <span className="flex items-center gap-1 bg-yellow-50 text-yellow-700 px-3 py-1 rounded-full text-sm font-bold border border-yellow-200">
-                  <Star size={16} fill="currentColor" /> {details.score}
-                </span>
-              )}
-              <span className="bg-purple-50 text-purple-700 px-3 py-1 rounded-full text-sm font-bold border border-purple-100">
-                {details.status || "Ongoing"}
-              </span>
-              {details.year && details.year !== "Unknown" && (
-                <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-bold border border-gray-200">
-                  {details.year}
-                </span>
-              )}
+              {details.score && details.score !== "N/A" && <span className="flex items-center gap-1 bg-yellow-50 text-yellow-700 px-3 py-1 rounded-full text-sm font-bold border border-yellow-200"><Star size={16} fill="currentColor" /> {details.score}</span>}
+              <span className="bg-purple-50 text-purple-700 px-3 py-1 rounded-full text-sm font-bold border border-purple-100">{details.status || "Ongoing"}</span>
+              {details.year && details.year !== "Unknown" && <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-bold border border-gray-200">{details.year}</span>}
             </div>
             <div className="flex flex-wrap justify-center sm:justify-start gap-2 mb-4">
-              {details.genres && details.genres.map(genre => (
-                <span key={genre} className="px-2.5 py-1 bg-white border border-gray-200 text-gray-600 text-xs font-semibold rounded-lg shadow-sm">
-                  {genre}
-                </span>
-              ))}
+              {details.genres && details.genres.map(genre => <span key={genre} className="px-2.5 py-1 bg-white border border-gray-200 text-gray-600 text-xs font-semibold rounded-lg shadow-sm">{genre}</span>)}
             </div>
             <p className="text-gray-600 text-sm leading-relaxed max-h-32 overflow-y-auto pr-2 no-scrollbar border-l-4 border-purple-200 pl-4">
               {details.synopsis || "Synopsis data is currently being synced from the API. Check back after the next database refresh."}
             </p>
           </div>
         </div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-          <PlayCircle className="text-purple-600" /> Complete Release History
-        </h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2"><PlayCircle className="text-purple-600" /> Complete Release History</h2>
         <div className="flex flex-col gap-4">
           {sortedEpisodes.map(([epNum, epData]) => (
             <div key={epNum} className="bg-white rounded-2xl border border-gray-100 p-4 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex items-center gap-4">
-                <div className="bg-gray-50 border border-gray-200 h-12 w-12 rounded-xl flex items-center justify-center shrink-0">
-                  <span className="font-extrabold text-gray-800">{epNum}</span>
-                </div>
+                <div className="bg-gray-50 border border-gray-200 h-12 w-12 rounded-xl flex items-center justify-center shrink-0"><span className="font-extrabold text-gray-800">{epNum}</span></div>
                 <div>
                   <p className="font-bold text-gray-900">Episode {epNum}</p>
                   <p className="text-xs text-gray-400">{new Date(epData.released_at).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>

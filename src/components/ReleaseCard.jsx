@@ -13,10 +13,7 @@ export default function ReleaseCard({ item, onClick, viewMode }) {
   const fallbackThumb = `https://ui-avatars.com/api/?name=${encodedTitle}&background=F3F4F6&color=7C3AED&size=256&font-size=0.4&bold=true`;
 
   return (
-    <div 
-      onClick={onClick}
-      className={`bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group cursor-pointer hover:border-purple-200 relative overflow-hidden ${isList ? 'flex p-3 gap-3 sm:gap-4' : 'flex flex-col p-4 gap-4'}`}
-    >
+    <div onClick={onClick} className={`bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group cursor-pointer hover:border-purple-200 relative overflow-hidden ${isList ? 'flex p-3 gap-3 sm:gap-4' : 'flex flex-col p-4 gap-4'}`}>
       <div className="absolute right-[-20px] top-[-20px] w-16 h-16 bg-purple-50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
       <div className={`relative shrink-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-200 ${isList ? 'w-24 sm:w-40 aspect-video sm:h-[90px]' : 'w-full aspect-video'}`}>
         <img src={item.poster || fallbackThumb} alt={item.clean_title} className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" loading="lazy" />

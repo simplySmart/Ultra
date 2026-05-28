@@ -22,7 +22,7 @@ async function fetchAndProcess() {
   const items = await fetchSubsPlease();
   let latestFeed = readJSON(LATEST_FEED_PATH) || [];
   let newUpdates = false;
-  let newEntries = []; 
+  let newEntries = [];
 
   for (const rawRelease of items) {
     const result = processRelease(rawRelease);
@@ -30,12 +30,12 @@ async function fetchAndProcess() {
 
     const animeData = result.data;
     const animeId = animeData.anime_id;
-    
+
     if (
       latestFeed.some(f => f.id === `${animeId}-${animeData.episode}`) ||
       newEntries.some(f => f.id === `${animeId}-${animeData.episode}`)
     ) {
-      continue; 
+      continue;
     }
 
     console.log(`Processing: ${animeData.clean_title} - EP ${animeData.episode}`);
@@ -52,24 +52,30 @@ async function fetchAndProcess() {
       animeHistory.poster = details?.poster || animeHistory.poster;
     }
 
+    // THE FIX: If backfill returns empty, do NOT mark it as completely backfilled. Give it another chance later.
     if (!animeHistory.backfilled) {
       const oldEpisodes = await backfillSubsPlease(animeId);
-      for (const item of oldEpisodes) {
-        if (!animeHistory.episodes[item.episode]) {
-          animeHistory.episodes[item.episode] = { released_at: item.pub_date, releases: [] };
-        }
-        const existing = animeHistory.episodes[item.episode].releases.find(r => r.group === item.group && r.resolution === item.resolution);
-        if (!existing) {
-           animeHistory.episodes[item.episode].releases.push({ group: item.group, resolution: item.resolution, magnet: item.magnet, size: item.size });
-        }
+      if (oldEpisodes.length > 0) {
+          for (const item of oldEpisodes) {
+            if (!animeHistory.episodes[item.episode]) {
+              animeHistory.episodes[item.episode] = { released_at: item.pub_date, releases: [] };
+            }
+            const existing = animeHistory.episodes[item.episode].releases.find(r => r.group === item.group && r.resolution === item.resolution);
+            if (!existing) {
+               animeHistory.episodes[item.episode].releases.push({ group: item.group, resolution: item.resolution, magnet: item.magnet, size: item.size });
+            }
+          }
+          animeHistory.backfilled = true;
+          console.log(`[Backfill] Successfully saved ${oldEpisodes.length} historical episodes for ${animeId}`);
+      } else {
+          console.log(`[Backfill] Skipped locking ${animeId} to allow future retries.`);
       }
-      animeHistory.backfilled = true; 
     }
 
     if (!animeHistory.episodes[animeData.episode]) {
       animeHistory.episodes[animeData.episode] = { released_at: animeData.pub_date, releases: [] };
     }
-    
+
     animeHistory.episodes[animeData.episode].releases.push({
       group: animeData.group, resolution: animeData.resolution, magnet: animeData.magnet, size: animeData.size
     });
@@ -85,11 +91,10 @@ async function fetchAndProcess() {
   }
 
   if (newUpdates) {
-    // THE FIX: Keep all history, deduplicate, and sort!
     const combined = [...newEntries, ...latestFeed];
     const uniqueFeed = Array.from(new Map(combined.map(item => [item.id, item])).values());
     uniqueFeed.sort((a, b) => new Date(b.pub_date) - new Date(a.pub_date));
-    
+
     writeJSON(LATEST_FEED_PATH, uniqueFeed);
     console.log("Database successfully generated.");
   } else {
