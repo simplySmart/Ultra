@@ -13,8 +13,19 @@
     "year": 2016,
     "episodes": 13
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
+    "160": {
+      "released_at": "2025-10-04T18:42:33.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a48719f2f9ae3fa59f7b79ccc0b8256bba95204b&dn=%5BSubsPlease%5D%20Boku%20no%20Hero%20Academia%20-%20160%20(1080p)%20%5BC1D9EAE8%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
     "171": {
       "released_at": "2026-05-22T20:57:34.000Z",
       "releases": [

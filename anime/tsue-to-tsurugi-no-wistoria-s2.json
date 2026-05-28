@@ -14,7 +14,7 @@
     "year": 2024,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "07": {
       "released_at": "2026-05-24T08:31:56.000Z",
@@ -24,6 +24,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:L6T42HMVMCZRAL2QBBI6VKVEI4FBZMY6&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2007%20%281080p%29%20%5B363B5153%5D.mkv&xl=1455381464&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-17T08:31:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:35ef5a82bcba4c236dcf20205b0777ad670f2536&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2006%20(1080p)%20%5B0B9D4E87%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-10T08:31:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:87a6ff14c3a410aa35118b9da15755040d0cf782&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2005%20(1080p)%20%5B39E1D3C2%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-05-03T08:32:06.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:d4e31258eab2863f38bcce85adcb8045620e8ced&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2004%20(1080p)%20%5BDC34B4A7%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-26T09:58:46.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:bc325d03b9f6ce5526045f5308dfb867cac8aab1&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2003%20(1080p)%20%5B7A10C33E%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-19T08:31:57.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:4d51a286a10c0efff6c73790227258a0761c1e44&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2002%20(1080p)%20%5BF8F24C02%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-12T08:32:18.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b19a159e3416e0640f830cd25586fdddea01196e&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2001%20(1080p)%20%5BA88EE0BC%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "00": {
+      "released_at": "2026-04-05T17:46:42.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f43d1cbacf06a94ac7fbccbb93bc828c0460e5ef&dn=%5BSubsPlease%5D%20Tsue%20to%20Tsurugi%20no%20Wistoria%20S2%20-%2000%20(1080p)%20%5BA1F31848%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

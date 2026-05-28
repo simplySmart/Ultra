@@ -13,8 +13,30 @@
     "year": 2023,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
+    "25": {
+      "released_at": "2026-01-01T15:00:04.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:05c9eb008b82b7fa7473e5347e3c47fdfb2cc1ec&dn=%5BSubsPlease%5D%20MF%20Ghost%20-%2025%20(1080p)%20%5B38B0C7EC%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "28": {
+      "released_at": "2026-01-22T22:01:02.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ba470f36da113798e872e7f1a9c7d4c07306c785&dn=%5BSubsPlease%5D%20MF%20Ghost%20-%2028%20(1080p)%20%5B2B25CE8B%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
     "37": {
       "released_at": "2026-05-22T20:47:13.000Z",
       "releases": [

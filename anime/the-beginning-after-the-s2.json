@@ -13,7 +13,7 @@
     "year": 2025,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "09": {
       "released_at": "2026-05-27T16:17:21.000Z",
@@ -23,6 +23,94 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:XX77LLT5PVYTH55VVH7MFRHSMY6ETM7B&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2009%20%281080p%29%20%5B3240B60D%5D.mkv&xl=1397184521&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "08": {
+      "released_at": "2026-05-20T16:17:30.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:71397fcd75d1ebd52ae79c425c1e80d840cdb7c7&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2008%20(1080p)%20%5B02D63E27%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-13T16:16:51.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0d4c9c2fe80152679271eef9091d1e2e02fdc655&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2007%20(1080p)%20%5B2E27866E%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-06T16:16:50.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:1474d1287066147cf8b5fdadd745ea1633ee1de4&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2006%20(1080p)%20%5B04FC9164%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-04-29T16:17:05.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9062770f2be17d0d45f00ddc840cec2061556f8a&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2005%20(1080p)%20%5B480D304B%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-22T16:17:05.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:085e0b3663039b0b4cf6cfdc9f665d57d32c187a&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2004%20(1080p)%20%5B50FC1D19%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-15T16:17:06.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:715d4ecfe64ec118cbe9f52035c21f4fab102a29&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2003%20(1080p)%20%5B4BA82CF0%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-08T16:17:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:79096b49905ca3ce06922906930bcac690560b90&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2002%20(1080p)%20%5B65B6C373%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-01T16:25:37.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b4bae79b4532703bcd2eb8f604de54f364a2ec5c&dn=%5BSubsPlease%5D%20The%20Beginning%20After%20the%20End%20S2%20-%2001%20(1080p)%20%5B5E4EBA00%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-25T15:02:08.000Z",
@@ -24,6 +24,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:D2RTVQN2BR7POZZ3P5HEIBCFDQWALW5D&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2008%20%281080p%29%20%5BD56B8EAA%5D.mkv&xl=1447972884&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-18T15:01:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:14ce65c7abc207a565cecea803a064e288f11aae&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2007%20(1080p)%20%5BE4D01611%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-11T15:02:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f416dc25f8c265a941de720d06c6aa55b720477d&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2006%20(1080p)%20%5B972662E8%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-04T15:02:11.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e00cc14dd36ffd65b34301e41e794c4be815de08&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2005%20(1080p)%20%5B4CB15FC6%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-27T15:01:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:5b146aee5fe17cece12db55baa8b7bf82c289745&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2004%20(1080p)%20%5B1613C86D%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-20T15:01:58.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:6d5f089236e1ebfefbeceba09c63d8ed06b9fcfd&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2003%20(1080p)%20%5BF76E808E%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-13T15:01:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:363a66d76aa30713d4b44c6c39135fbca8ea0ba0&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2002%20(1080p)%20%5B8185D595%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-06T15:04:30.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:26c604160e93a7d11202c1736ba31b1b83d18fc5&dn=%5BSubsPlease%5D%20Ponkotsu%20Fuuki%20Iin%20to%20Skirt-take%20ga%20Futekisetsu%20na%20JK%20no%20Hanashi%20-%2001%20(1080p)%20%5B033180CC%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

@@ -13,7 +13,7 @@
     "year": 2026,
     "episodes": 13
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-23T17:01:01.000Z",
@@ -23,6 +23,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:KQYTT32BDQZNTYVDGQEVRMAIO2V34YYJ&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2008%20%281080p%29%20%5BAFF69DBB%5D.mkv&xl=1445570114&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-16T17:01:12.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ad7d2dbc43531a5e5032ebfb808530c992c86e19&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2007%20(1080p)%20%5BA91DF9F8%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-09T17:01:09.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:40f2a1840327c2ea42fbcf9115b26147d0bab075&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2006%20(1080p)%20%5B86DCBD31%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-02T17:01:07.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:09805be82561bd8056f7bbdc38f2e5b4f19985d9&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2005%20(1080p)%20%5B5B3D2672%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-25T17:04:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:113b69646bd0da99c802e66a5a30dcbfa025b884&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2004%20(1080p)%20%5B315B3F97%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-18T17:03:28.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c627351cbc3ebc0d49ca502aa159a32c911afcc9&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2003%20(1080p)%20%5BAA712D60%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-11T17:03:19.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c8cf71c5af861c91853f8f9f349658eec441b50f&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2002%20(1080p)%20%5B4FCAA802%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-04T17:03:45.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c0a2c37e238b329698e26553cb8e91b720e7ad6f&dn=%5BSubsPlease%5D%20NEEDY%20GIRL%20OVERDOSE%20-%2001%20(1080p)%20%5B034F401D%5D.mkv",
+          "size": "1.4 GiB"
         }
       ]
     }

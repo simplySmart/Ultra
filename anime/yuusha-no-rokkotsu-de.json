@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-26T18:07:06.000Z",
@@ -24,6 +24,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:JINT6IT5WFQI4LR655KXQBZ52KXBBY4D&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2008%20%281080p%29%20%5BE89ADA5D%5D.mkv&xl=1391747756&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-19T18:06:55.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0a290300ecb7ba4259c6c40d3e204f0fdc2be667&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2007%20(1080p)%20%5B0E1544AA%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-12T18:07:11.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a36ff15247d1c0b7fffdd7e77d615107df7d7be7&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2006%20(1080p)%20%5B0F87A072%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-05T18:06:55.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b08d934c83333ffc91a7ee1c6ee308e03bdd5773&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2005%20(1080p)%20%5BA75D1985%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-28T18:06:55.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ec56f3dbc3fceced56774a5638adbd0f159a2af0&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2004%20(1080p)%20%5B236650DA%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-21T18:07:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f1ecfeef948e6833cdeec0a1380dc19bb8d3d648&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2003%20(1080p)%20%5BC38B61AE%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-14T18:07:02.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a054d1dda55b0b28d3479a5558c6d3fbab3235b7&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2002%20(1080p)%20%5BCCAA1A68%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-07T18:08:23.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:5eb43c269db73db5763e68401b670570767cb3bf&dn=%5BSubsPlease%5D%20Yuusha%20no%20Rokkotsu%20de%20-%2001%20(1080p)%20%5B542415CF%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }
