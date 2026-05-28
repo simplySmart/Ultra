@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { processRelease } from './parser.js';
 import { fetchAnimeDetails } from './api/jikan.js';
-import { fetchSubsPlease } from './fetchers/subsplease.js';
+import { fetchSubsPlease, backfillSubsPlease } from './fetchers/subsplease.js';
 
 const DB_DIR = path.resolve("./db");
 const LATEST_FEED_PATH = path.join(DB_DIR, "latest", "feed.json");
@@ -20,7 +20,6 @@ const writeJSON = (filePath, data) => {
 async function fetchAndProcess() {
   console.log("Starting Indexer Engine...");
   
-  // Future-proofed: You can easily add more fetchers here later and merge the arrays
   const items = await fetchSubsPlease();
 
   let latestFeed = readJSON(LATEST_FEED_PATH) || [];
@@ -50,15 +49,42 @@ async function fetchAndProcess() {
       title: animeData.clean_title,
       poster: null,
       details: null,
+      backfilled: false, // New tracker so we don't spam the API
       episodes: {}
     };
 
+    // 1. Fetch Rich Metadata
     if (!animeHistory.details) {
       const details = await fetchAnimeDetails(animeData.clean_title);
       animeHistory.details = details || {};
       animeHistory.poster = details?.poster || animeHistory.poster;
     }
 
+    // 2. NEW: Backfill Historical Episodes
+    if (!animeHistory.backfilled) {
+      const oldEpisodes = await backfillSubsPlease(animeId);
+      for (const item of oldEpisodes) {
+        if (!animeHistory.episodes[item.episode]) {
+          animeHistory.episodes[item.episode] = {
+             released_at: item.pub_date,
+             releases: []
+          };
+        }
+        // Prevent duplicates
+        const existing = animeHistory.episodes[item.episode].releases.find(r => r.group === item.group && r.resolution === item.resolution);
+        if (!existing) {
+           animeHistory.episodes[item.episode].releases.push({
+             group: item.group,
+             resolution: item.resolution,
+             magnet: item.magnet,
+             size: item.size
+           });
+        }
+      }
+      animeHistory.backfilled = true; // Mark as complete!
+    }
+
+    // 3. Add the latest episode from the live RSS
     if (!animeHistory.episodes[animeData.episode]) {
       animeHistory.episodes[animeData.episode] = {
         released_at: animeData.pub_date,
