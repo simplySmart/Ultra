@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "07": {
       "released_at": "2026-05-23T14:31:53.000Z",
@@ -24,6 +24,72 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:ABYA3IUMGJKJP7QKBESZRWZNUPUPYVXB&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2007%20%281080p%29%20%5BA809F54F%5D.mkv&xl=1444435335&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-16T14:32:08.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f1aaa7ec804e16d84bc56d43b2e2e47df9d86bdf&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2006%20(1080p)%20%5B16943DC7%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-09T14:31:58.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:feb7544a47ee9326a9c1c74be616883a98106dc4&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2005%20(1080p)%20%5B1453D890%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-05-02T14:31:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:04548c4e786fa0ca3cbcfd42a32e3f3230b8c84b&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2004%20(1080p)%20%5B4B7FF44F%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-25T14:32:57.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:2f145dc814768a08906364a5fb3b58cede2b9c08&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2003%20(1080p)%20%5B58168722%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-18T14:31:50.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:6a7d83feb7d5a901f7a013ceb39ab3bab744fc24&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2002%20(1080p)%20%5BD91055DA%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-11T14:31:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:464c566440a328f4affca5494bb373775e1dd32c&dn=%5BSubsPlease%5D%20Kill%20Ao%20-%2001%20(1080p)%20%5B2DFD3774%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

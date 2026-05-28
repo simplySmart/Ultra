@@ -13,7 +13,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "09": {
       "released_at": "2026-05-28T16:03:40.000Z",
@@ -23,6 +23,94 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:OKLOOJTQLH6HISAIUNI6JBSYHXHDUOAS&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2009%20%281080p%29%20%5B177C9797%5D.mkv&xl=931947453&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "08": {
+      "released_at": "2026-05-21T16:03:24.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:15d7ca7e1374f8cfe994e4d227642eaf99a4a149&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2008%20(1080p)%20%5BC3819A0D%5D.mkv",
+          "size": "887.4 MiB"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-14T16:24:19.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:cff9e5542fc629f00ea8cc43389f4ee7479d998f&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2007%20(1080p)%20%5B304740EB%5D.mkv",
+          "size": "868.3 MiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-07T16:03:54.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:961fc8cd2bcac1644c932b0defcd262b683eaac8&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2006%20(1080p)%20%5BB4408A3D%5D.mkv",
+          "size": "854.3 MiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-04-30T16:03:18.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9514841526396ad48c3b3275af1caa0913ec3dbf&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2005%20(1080p)%20%5B3BF2A543%5D.mkv",
+          "size": "882.5 MiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-23T16:03:41.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a7f490966f4f0f1a4644d5a4fd13b78293c9adc5&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2004%20(1080p)%20%5B08801D42%5D.mkv",
+          "size": "881.2 MiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-16T16:03:26.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b77125c75d403474b7716b785467528177a65c81&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2003%20(1080p)%20%5BE37E5FBB%5D.mkv",
+          "size": "874.4 MiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-09T16:03:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:47c6e63d9f3ecaf781036173a9edc9a6d9f07750&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2002%20(1080p)%20%5B46B85683%5D.mkv",
+          "size": "897.0 MiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-02T16:03:21.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:3cc2fdfbdee80689466febe2fdeb1d0fb2946d0a&dn=%5BSubsPlease%5D%20Kirio%20Fanclub%20-%2001%20(1080p)%20%5BBF1E6679%5D.mkv",
+          "size": "869.6 MiB"
         }
       ]
     }

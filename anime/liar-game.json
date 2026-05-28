@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": "Ongoing"
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-25T16:02:13.000Z",
@@ -24,6 +24,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:QDIVRPFQOAYJ2C56XCDTTAHX3E4NAMGT&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2008%20%281080p%29%20%5BEE64CFEE%5D.mkv&xl=1458682639&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-18T16:02:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f1fefe427ddf06159ad8146dcf0e1888e6814417&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2007%20(1080p)%20%5B4C952661%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-11T16:02:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e408ccd52152c7eb1cf393dea273e2259ca6c808&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2006%20(1080p)%20%5B746D9B91%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-04T17:32:17.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:d2096ab78bb4ea120d516df5f6c97cccace56d18&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2005%20(1080p)%20%5BDCB70472%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-27T16:02:00.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:86610c6d8bd9d5de25359e255b3a4df44141072d&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2004%20(1080p)%20%5B16F930F7%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-20T16:01:58.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:7c03f19795a1dbd691618d3917c3f950a5fd8082&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2003%20(1080p)%20%5BDCC16053%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-13T16:01:46.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:81164df2a4922e6e2d5a86ab858fc4d8cf22493a&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2002%20(1080p)%20%5B216EF32A%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-06T16:03:33.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:d3a045d8781129d2223e367b8563094888a254bf&dn=%5BSubsPlease%5D%20LIAR%20GAME%20-%2001%20(1080p)%20%5B952605A0%5D.mkv",
+          "size": "1.4 GiB"
         }
       ]
     }

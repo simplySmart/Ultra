@@ -15,8 +15,250 @@
     "year": 2025,
     "episodes": "Ongoing"
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
+    "10": {
+      "released_at": "2025-12-07T03:01:51.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b7c3ea8c71985db8974e1486611ca0f81ada5d38&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2010%20(1080p)%20%5B016FCD17%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "11": {
+      "released_at": "2025-12-14T03:01:49.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b12b48cbcc78142c98470b7e0065142aecda3ac9&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2011%20(1080p)%20%5BE2F4E652%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "12": {
+      "released_at": "2025-12-21T03:02:37.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:8ad39824773bdd6b792c4ba7a61a0b6cdd1f7eac&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2012%20(1080p)%20%5B21C7C4C1%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "13": {
+      "released_at": "2026-01-04T03:01:50.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ede74959e3a78517a4ae17ccc75dc048375c50c8&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2013%20(1080p)%20%5B9E02AE90%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "14": {
+      "released_at": "2026-01-11T03:01:38.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:531fc148290bcb4b476fd8d4fc314bbce3b2bb3b&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2014%20(1080p)%20%5B41127D0D%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "15": {
+      "released_at": "2026-01-18T03:32:10.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b2dd5790af4d15500e88fcad8522aa7ba012d127&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2015%20(1080p)%20%5B65164ED3%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "16": {
+      "released_at": "2026-01-25T03:01:43.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:76e0634643bb616b607e7bf5a42e30de92f1b684&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2016%20(1080p)%20%5B5AA9EE78%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "17": {
+      "released_at": "2026-02-01T03:01:54.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:65db8dd0854ae6aba2efaac1d34ac6a1b922eb6c&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2017%20(1080p)%20%5BD76DF507%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "18": {
+      "released_at": "2026-02-08T03:02:06.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c2650c42c460cfcd841894c862dfd8e023bd58e2&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2018%20(1080p)%20%5BF78319DD%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "19": {
+      "released_at": "2026-02-15T03:02:04.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:575b1e2329d98237bef0ecea58f39ae7b67354d2&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2019%20(1080p)%20%5BF1513925%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "20": {
+      "released_at": "2026-02-22T03:01:49.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:38affbb89a446c4009e8887b2d8d28e2748a6721&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2020%20(1080p)%20%5B44531239%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "21": {
+      "released_at": "2026-03-01T03:01:53.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f63fbc741c0f01e408261afc9c6ae7c88f17491d&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2021%20(1080p)%20%5B6D62F65B%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "22": {
+      "released_at": "2026-03-15T03:02:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b65ba89e3afeaceb4636f5385f6c091b85a1a454&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2022%20(1080p)%20%5B5D305733%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "23": {
+      "released_at": "2026-03-22T03:04:28.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:595a0543887859bc47b917519d3439373c81c4f0&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2023%20(1080p)%20%5B6F2DE814%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "24": {
+      "released_at": "2026-05-18T22:12:54.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:2377444d562bd5c96064a69437a6e472ef1d0c39&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20(01-24)%20(1080p)%20%5BBatch%5D",
+          "size": "32.1 GiB"
+        }
+      ]
+    },
+    "25": {
+      "released_at": "2026-04-05T03:02:07.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0a503a6f7e18ca2463a208e782f33516374dc049&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2025%20(1080p)%20%5B29A2ADAE%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "26": {
+      "released_at": "2026-04-12T03:02:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:4412cbf352581ea1b44a02fba1cddee45899a21c&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2026%20(1080p)%20%5B10E93FB6%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "27": {
+      "released_at": "2026-04-19T03:01:48.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a188c5d0bd90fae64865b73b9e5e32caa3259551&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2027%20(1080p)%20%5B9C22E11E%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "28": {
+      "released_at": "2026-04-26T10:17:30.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ea518fd953455451c9274e9609a8113fca3e6b8b&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2028v2%20(1080p)%20%5BAF627714%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "29": {
+      "released_at": "2026-05-03T03:02:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a8988e83ad1ba3af6ca71b3db71f95773b5208f6&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2029%20(1080p)%20%5B734D7D65%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "30": {
+      "released_at": "2026-05-10T03:01:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:7c44a23c72f59bdf8ab88aa32f72998d04f1d94f&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2030%20(1080p)%20%5B6E94A539%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "31": {
+      "released_at": "2026-05-17T03:01:44.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:36b092946b0497477c1447f66b017de05f7de0a9&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2031%20(1080p)%20%5B4A56ECD9%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
     "32": {
       "released_at": "2026-05-24T03:01:58.000Z",
       "releases": [
@@ -25,6 +267,105 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:4ILK64OQHPUQMD2ZJXY4I2T6VK4TOA5H&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2032%20%281080p%29%20%5BC20EEB3D%5D.mkv&xl=1436094529&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "09": {
+      "released_at": "2025-11-30T03:01:52.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:7e1809058367d892e88f0c32630f2ef15c554c4d&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2009%20(1080p)%20%5BCE4538DA%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "08": {
+      "released_at": "2025-11-23T03:01:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f254ebbb6329f300befe6cf12c624f01d8ec3b20&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2008%20(1080p)%20%5B7A31B27A%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2025-11-16T03:01:43.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:fe8d80fc0c8b0e44ddc8a92ff3c26c980bc124e1&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2007%20(1080p)%20%5B5E858DC0%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2025-11-09T03:01:42.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:fe817aa21498278bbc5e9c13df3b2ac5ad7b73ef&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2006%20(1080p)%20%5B8690F037%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2025-11-02T03:23:38.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:14b63bebb70274383a9f6d22bc5f98f44d6c4028&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2005%20(1080p)%20%5B7C021894%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2025-10-26T03:01:38.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:44751226b1fe1dbbfa8255353d8154786b02060b&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2004%20(1080p)%20%5BD65D7EBD%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2025-10-19T03:01:47.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:48969231ae252fd87a82291d94e863f208e58c87&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2003%20(1080p)%20%5B659DF4EB%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2025-10-12T03:01:50.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:4a0dfae998506ceba64944f87c07adc46d9ee1c5&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2002%20(1080p)%20%5B6279867F%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2025-10-05T04:10:40.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:67e6fb17c6bf78a8004018c13f13926a473bff97&dn=%5BSubsPlease%5D%20Digimon%20Beatbreak%20-%2001%20(1080p)%20%5BE17E3E77%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

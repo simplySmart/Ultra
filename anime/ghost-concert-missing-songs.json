@@ -15,7 +15,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-24T15:32:04.000Z",
@@ -25,6 +25,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:TVWTYGFPFVX65GVD7AE5YZUFALIO65KB&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2008%20%281080p%29%20%5BE7896032%5D.mkv&xl=1446904573&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-17T15:31:58.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f2bd2702d0fe59775cb30d4af637b62cb6d7a4ed&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2007%20(1080p)%20%5B0AFCB08C%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-10T15:32:07.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:116e41a0fdff649c1115b660f33636a4811eb9ad&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2006%20(1080p)%20%5B23D5FF28%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-03T15:32:06.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:2fc4914b0b7209f967eb49872e2c4703d935c123&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2005%20(1080p)%20%5B5F098AC7%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-26T15:31:52.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:56ea685cfa4e19b6f41207a385c1b66899372895&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2004%20(1080p)%20%5B0FFC8AC5%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-19T15:32:02.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:45111e8417b8ba0c3ef491f09b41933b2f104d88&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2003%20(1080p)%20%5B3189F773%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-12T15:32:06.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:749ff647026a3109c4aa76f8a5e57993c97f603e&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2002%20(1080p)%20%5B0ACE4058%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-05T15:33:09.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:73ce6352ebf5727f7d0e23e2daae7166b1d1422c&dn=%5BSubsPlease%5D%20Ghost%20Concert%20-%20missing%20Songs%20-%2001%20(1080p)%20%5BB4D1C85B%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

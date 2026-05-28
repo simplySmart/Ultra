@@ -14,8 +14,481 @@
     "year": 2020,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
+    "13": {
+      "released_at": "2022-07-01T18:31:37.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:da983d51294aa7d10569a60efded4f416ec6b011&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2013%20(1080p)%20%5B733174A7%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "14": {
+      "released_at": "2022-07-08T18:31:26.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0a414ac4e325dfcfcff3f2e6c1798273e3b74088&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2014%20(1080p)%20%5B539ACC96%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "15": {
+      "released_at": "2022-07-15T18:33:39.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e7dd3a33f0b1bc37e3a4e307400f74929d5cbf2e&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2015%20(1080p)%20%5BCFA88430%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "16": {
+      "released_at": "2022-07-22T23:22:47.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0c2db0f4e19adf3994cd64867b6d10a1c7297725&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2016%20(1080p)%20%5BC68C65D6%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "17": {
+      "released_at": "2022-07-29T18:44:14.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9e1c11429bf75989048315b2200a6f4abdac44ed&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2017%20(1080p)%20%5B10EFAE7D%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "18": {
+      "released_at": "2022-08-05T18:36:34.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:4f3d87ae1a2cd164ece681305ed20d52555377b2&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2018%20(1080p)%20%5BB13591B3%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "19": {
+      "released_at": "2022-08-12T18:35:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e3d3776a3beedca0a27c997ed585ccf4a48916e2&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2019%20(1080p)%20%5B540CDEC9%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "20": {
+      "released_at": "2022-08-19T18:37:41.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c8e66e3189c8857425244fdd74f636591de0d963&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2020%20(1080p)%20%5B9763BA94%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "21": {
+      "released_at": "2022-08-26T18:37:13.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:98be4b73687b208b3c576af5ea1f2d02be93aa06&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2021%20(1080p)%20%5BF78FAF7B%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "22": {
+      "released_at": "2022-09-02T18:37:28.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:33aaf0ec25c040213c00bf83ea210fab101879dc&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2022%20(1080p)%20%5BF4D56695%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "23": {
+      "released_at": "2022-09-09T18:35:29.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:aa0338bd35cfffaf4e2269e76113027711ca263c&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2023%20(1080p)%20%5B75D67223%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "24": {
+      "released_at": "2022-09-16T18:34:31.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f1917785b6de26c4ab362f3064925e910e0140ac&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2024%20(1080p)%20%5B1C541D74%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "25": {
+      "released_at": "2023-07-07T18:32:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9d83ff1368f364abd26ff8bc0f09bddd4b7e78bd&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2025%20(1080p)%20%5B66316D16%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "26": {
+      "released_at": "2023-07-14T18:32:04.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:59930b59a4c236dafe584a02d768444808a583a7&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2026%20(1080p)%20%5B2120B52F%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "27": {
+      "released_at": "2023-07-21T18:31:27.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0a21d37368f785109edb9b0b99e5af49b037e5fa&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2027%20(1080p)%20%5BFFEA884A%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "28": {
+      "released_at": "2023-07-28T18:31:32.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:878a072c27d818c4d3982c1cf8910ffe876edae2&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2028%20(1080p)%20%5BE1DDFC20%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "29": {
+      "released_at": "2023-08-04T18:31:32.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:13f7e7ff9f5140dc4fc9d7ffc711abbdd962f6ce&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2029%20(1080p)%20%5B0690309F%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "30": {
+      "released_at": "2023-08-11T18:31:57.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b2c99492ba0b29e2838064abe586e4f7f326e916&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2030%20(1080p)%20%5B27375D39%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "31": {
+      "released_at": "2023-08-18T18:31:32.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:df1858f2d251c6a36bb06324902003a91ca96d92&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2031%20(1080p)%20%5B146348C3%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "32": {
+      "released_at": "2023-09-01T18:31:32.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f05a436faa1d89b2553ade13a4129bafa080b40e&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2032%20(1080p)%20%5B0230DDCC%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "33": {
+      "released_at": "2023-09-08T18:31:52.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:3dda7c2c5503461719a8b4555ddd128004bae78f&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2033%20(1080p)%20%5B3FD8EEC3%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "34": {
+      "released_at": "2023-09-15T18:31:43.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b8b656ba511b1efbd274c91b8489777a95ddea96&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2034%20(1080p)%20%5B2735E762%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "35": {
+      "released_at": "2023-09-22T18:31:39.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:bb18af10f047a96a523178c84266ccbcb484cc76&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2035%20(1080p)%20%5BA42A9595%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "36": {
+      "released_at": "2023-09-29T18:31:34.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:22e2da0f1e309e233c45f936e77125dc3aa31645&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2036%20(1080p)%20%5BE96B84F1%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "37": {
+      "released_at": "2025-07-01T13:32:15.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:34cc3a36b829514e33b5d1c5491c21ac7bf29be2&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2037%20(1080p)%20%5B457BA01C%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "38": {
+      "released_at": "2025-07-08T13:32:06.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0e8825e2e5f372302d6c6a65b7b6bb26e1d72641&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2038%20(1080p)%20%5B7F1712E9%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "39": {
+      "released_at": "2025-07-15T13:32:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:215cfaf2160bffe0b29cda8ebcf49b94041b7df1&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2039%20(1080p)%20%5BE74E9033%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "40": {
+      "released_at": "2025-07-22T13:32:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:76e6094f365e583027c33bdc156c151a49fafbb0&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2040%20(1080p)%20%5B31CA81F1%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "41": {
+      "released_at": "2025-07-29T13:32:29.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:aba6a1ec7eeaaba3571ee56e5a972aee95367003&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2041%20(1080p)%20%5B123BED64%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "42": {
+      "released_at": "2025-08-05T13:32:18.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:790eb0ed161d4172fb350d8cd0de344f61a99936&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2042%20(1080p)%20%5BBF29564A%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "43": {
+      "released_at": "2025-08-12T13:32:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:108145cf4bb782f9d0255401d60f7144f03146ea&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2043%20(1080p)%20%5B57E4C89D%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "44": {
+      "released_at": "2025-08-19T21:09:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:7d0d225b8adb4b5dea4087fef4f326e7a356f233&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2044%20(1080p)%20%5BA1A93232%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "45": {
+      "released_at": "2025-08-26T13:32:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:47368aa90e1fb76a5b6e4e251a863add32e1db34&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2045%20(1080p)%20%5BBEAC7DED%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "46": {
+      "released_at": "2025-09-02T13:32:30.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e6a057b4da260c2a7b63841c7c05ba70e2282089&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2046%20(1080p)%20%5B20FD493D%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "47": {
+      "released_at": "2025-09-09T15:09:07.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:905fd16ef927a492031576d84134cf0962b87b8d&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2047%20(1080p)%20%5B6C747241%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "48": {
+      "released_at": "2025-09-16T13:32:31.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:8fbf6cd4d36325f718f82b1150f19b0c9984dd67&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2048%20(1080p)%20%5B4B86294E%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "49": {
+      "released_at": "2026-04-08T13:23:40.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:51d1e91b245e629b70eaff1bf50dca326cbac79e&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2049%20(1080p)%20%5BD98C0B62%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "50": {
+      "released_at": "2026-04-15T13:01:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:6ef215e05ec4e98231967eff66efabae6db758c3&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2050%20(1080p)%20%5BBC38A5FC%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "51": {
+      "released_at": "2026-04-22T13:02:10.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:5573a331d161559fbff5355ce4c93fe572501623&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2051%20(1080p)%20%5B0DEDD8B9%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "52": {
+      "released_at": "2026-04-29T13:02:12.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:53e4b14435a969025ad12cb2fe4db6e488dc9782&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2052%20(1080p)%20%5BDE2FEFF3%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "53": {
+      "released_at": "2026-05-06T13:02:12.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:48a29d32f3b27019309cb29891e2d6c35a2ae4ce&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2053%20(1080p)%20%5B4431D343%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "54": {
+      "released_at": "2026-05-13T13:02:04.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:6be548a1beda291f7348e516018fe89e2dbbf954&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2054%20(1080p)%20%5BDBEB5013%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "55": {
+      "released_at": "2026-05-20T13:02:09.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:88a8178dda5a1f684fd250ffeea24a86299e989b&dn=%5BSubsPlease%5D%20Kanojo%2C%20Okarishimasu%20-%2055%20(1080p)%20%5B9360082B%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
     "56": {
       "released_at": "2026-05-27T13:02:12.000Z",
       "releases": [

@@ -15,7 +15,7 @@
     "year": 2026,
     "episodes": 13
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-26T14:32:53.000Z",
@@ -25,6 +25,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:4YV7BCVGYCCRMS5EIIZSXUYCMRGSVM54&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2008%20%281080p%29%20%5B3AEC4435%5D.mkv&xl=1449232182&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-19T14:34:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:73580a553e765ddf3c7286b3cd4059ceb2dd85e9&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2007%20(1080p)%20%5B46AC7805%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-12T14:34:26.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:86586bc9c948a23a8d5054949ca69958493a51f8&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2006%20(1080p)%20%5BBB8A3538%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-05T14:33:35.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:706b5034080c18f15cf703541850c9047ad8da34&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2005%20(1080p)%20%5BD79A55C1%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-28T14:33:13.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ae0ccccf959ad98d5e1c218c9291c978b3ace69c&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2004%20(1080p)%20%5B465A78EA%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-21T14:36:00.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:8961064aa780427d664bffaebbacbc3309b710bb&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2003%20(1080p)%20%5B10C8A535%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-14T14:33:21.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:459b4aa16e819bcd708721d89834696ab9fa242c&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2002%20(1080p)%20%5B7B4EC678%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-07T14:32:25.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e7733460cdf4f5f2ee7e593b13f56adaaa80e996&dn=%5BSubsPlease%5D%20Replica%20datte%2C%20Koi%20wo%20Suru.%20-%2001%20(1080p)%20%5BB838716D%5D.mkv",
+          "size": "1.4 GiB"
         }
       ]
     }

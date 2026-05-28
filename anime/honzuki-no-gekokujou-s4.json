@@ -13,7 +13,7 @@
     "year": 2026,
     "episodes": "Ongoing"
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "07": {
       "released_at": "2026-05-23T09:31:52.000Z",
@@ -23,6 +23,72 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:SWIBIZZOVSMSVK7UUZC5QKGLWS3JDZPJ&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2007%20%281080p%29%20%5B19A346F6%5D.mkv&xl=1454645772&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-16T09:32:10.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:804b1e36cdc0a63a7eeb819278562f5560df552c&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2006%20(1080p)%20%5B7B312260%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-09T09:31:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:1f6ecf276bcc72f75317eedd1fc11302f222095c&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2005%20(1080p)%20%5B6F2BC5FC%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-25T09:32:24.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c8dbf52a93a714a571d7efd0bf716361f6141295&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2004%20(1080p)%20%5B34D57F45%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-18T09:31:36.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:bd1c08055bf1630b75c4664779a5bd4f034b93bb&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2003%20(1080p)%20%5B6C725E05%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-11T09:31:58.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:eadccffdee5686bc6783ee058a871ba9c30e9188&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2002%20(1080p)%20%5B9708D720%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-04T12:31:40.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:100bf1c728eed94dafda7e91058fcefa895ab98d&dn=%5BSubsPlease%5D%20Honzuki%20no%20Gekokujou%20S4%20-%2001%20(1080p)%20%5BC322A101%5D.mkv",
+          "size": "1.4 GiB"
         }
       ]
     }

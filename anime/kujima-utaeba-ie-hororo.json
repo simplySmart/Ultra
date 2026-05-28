@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 12
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-28T14:00:49.000Z",
@@ -24,6 +24,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:LPH25W4XUXFS2QVTCHJGWDU4FYQBBCAS&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2008%20%281080p%29%20%5B67BDA512%5D.mkv&xl=1444477147&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-21T14:01:18.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e19d8d4d605e2f2ae9e5285d7f38871f35b592d1&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2007%20(1080p)%20%5BCD0344CA%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-14T14:01:12.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:eee7b6cb5fa0baf1ea92d834cf9af636c53de7fa&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2006%20(1080p)%20%5B350942E5%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-07T14:00:53.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:378ef9dbd0826eea33725a87314bc2328fae365c&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2005%20(1080p)%20%5BA6B5CA40%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-30T14:00:57.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:59e15912dd09882ae8a81ba5a52b012a2f5ebd7b&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2004%20(1080p)%20%5BD3A2B452%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-23T14:03:32.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:1dbd6a4ae591e8c697baa5c564abea712f1ff8d0&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2003%20(1080p)%20%5BBAA6E6A7%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-16T14:04:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:05b7d2219d67eb94cbaeac0a9f6bc4786a7f025f&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2002%20(1080p)%20%5BAAAAC318%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-09T14:04:13.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:fe4de732338530b2dd846638e23e4d63ba10b1b3&dn=%5BSubsPlease%5D%20Kujima%20Utaeba%20Ie%20Hororo%20-%2001%20(1080p)%20%5B01DDF1AE%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

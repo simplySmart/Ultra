@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": 13
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "10": {
       "released_at": "2026-05-27T17:02:23.000Z",
@@ -24,6 +24,105 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:WM3LOCGGTRUK6IO2J5SKQLLDVJK5BS4N&dn=%5BSubsPlease%5D%20Ganbare%21%20Nakamura-kun%21%21%20-%2010%20%281080p%29%20%5B126882D6%5D.mkv&xl=1449061528&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "09": {
+      "released_at": "2026-05-20T17:01:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:659d256bed681cd1a792c58f1ab97e2497d9567a&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2009%20(1080p)%20%5BA1A2D47A%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "08": {
+      "released_at": "2026-05-13T17:01:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:47af069533e7bc3a6be6bc239c1d5e7e3ee61498&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2008%20(1080p)%20%5BA6FBDBDC%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-06T17:01:59.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:36895527adf6820854984b8cf488d1023d5f2ca8&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2007%20(1080p)%20%5B7A297C20%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-04-29T17:02:01.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:def7bf60eee5a6e13bcf7dc1b62b42beb8b35110&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2006%20(1080p)%20%5B56310728%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-04-22T17:02:14.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:e46f44b0f1b61e6b6ba10296f191df57fc5bb1e5&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2005%20(1080p)%20%5B8044CD52%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-15T17:02:30.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:7d5648b4bb9a0fb712aafb18352f983bae485d75&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2004%20(1080p)%20%5BFA40F1FB%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-08T17:03:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:68491aa993d27c0684fc0ed1627e834ccc17f7a0&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2003%20(1080p)%20%5B3D1E9EF6%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-01T17:05:02.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:134f1c96ac9285b43b942554a9e3029616a356cc&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2002%20(1080p)%20%5BFA74CB26%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-01T17:03:28.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b1e245c8a2c90f39dfff87e5ff353d15e83013b9&dn=%5BSubsPlease%5D%20Ganbare!%20Nakamura-kun!!%20-%2001%20(1080p)%20%5B1D697BEC%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

@@ -14,7 +14,7 @@
     "year": 2026,
     "episodes": "Ongoing"
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "07": {
       "released_at": "2026-05-24T15:02:08.000Z",
@@ -24,6 +24,72 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:SYLPY655OV7CMTSITFHPRW2YGJTAO232&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2007%20%281080p%29%20%5B7A7DC53E%5D.mkv&xl=1447907013&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-17T15:01:51.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:cc8a5690ac001cba6097c197763c5f032e4514ff&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2006%20(1080p)%20%5B738FB81A%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-10T15:02:22.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f205551921e7444486be14dddc9206fc0bd68ed2&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2005%20(1080p)%20%5BDA83EFBE%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-05-03T15:01:55.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ed37147acbd1f43729cdea59acf2e42133ab0067&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2004%20(1080p)%20%5B1FE6CB7C%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-26T15:01:56.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:70963da21f120291da31f77d64c884d835e07c78&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2003%20(1080p)%20%5BDE4F6BA8%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-19T15:02:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:60a4646f9bece674c05f2c9fa4d22a21cc182dd8&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2002%20(1080p)%20%5B773B31C1%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-12T15:04:43.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9b759ab08055524b126068f9619f1566b30ba557&dn=%5BSubsPlease%5D%20Kuroneko%20to%20Majo%20no%20Kyoushitsu%20-%2001%20(1080p)%20%5B73A91069%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

@@ -13,7 +13,7 @@
     "year": 2026,
     "episodes": 13
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "09": {
       "released_at": "2026-05-25T14:02:02.000Z",
@@ -23,6 +23,94 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:ZH2ZI7GXXZ3XIW3XOZSR7A2ZNBYQ7P3L&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2009%20%281080p%29%20%5B94BF42DC%5D.mkv&xl=1442744951&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "08": {
+      "released_at": "2026-05-18T14:01:58.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:1c5ad5b4c56b854fd7e4890ee26c947506e8b4b4&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2008%20(1080p)%20%5B712D759E%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-11T14:01:57.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:33e66b3af3908f987f9aa4ca023bec8fc2e0f0e5&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2007%20(1080p)%20%5B7FEE2707%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-04T14:02:04.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:f627088601c7f8b43822128e129cfd32de1c50f0&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2006%20(1080p)%20%5B043AF62E%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-04-27T14:01:54.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:69a558092ef91e4c53b10c727404daaac8a2ceef&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2005%20(1080p)%20%5BAE524053%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-20T14:01:57.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9289a0ce29bcb059f3772e3ed8b931db40a5ec3d&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2004%20(1080p)%20%5BD5611080%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-13T14:02:00.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:7108eb18650f5872c1e9e8cd2de0b3538c4357b0&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2003%20(1080p)%20%5BD37218F9%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-06T14:08:25.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c33b258ffc8a86b9b3a747b8fec4844784caf60d&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2002%20(1080p)%20%5B30F2B3CB%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-06T14:02:16.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:9c329e814169877fc1509fa7584ab50d3fae2a06&dn=%5BSubsPlease%5D%20Tongari%20Boushi%20no%20Atelier%20-%2001%20(1080p)%20%5B0D8AE311%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }

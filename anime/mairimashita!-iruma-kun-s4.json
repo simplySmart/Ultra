@@ -14,7 +14,7 @@
     "year": 2019,
     "episodes": 23
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "08": {
       "released_at": "2026-05-23T10:27:04.000Z",
@@ -24,6 +24,83 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:WDQSIMTND2D6ZPHRZW3EP6I5BY7KRHGF&dn=%5BSubsPlease%5D%20Mairimashita%21%20Iruma-kun%20S4%20-%2008%20%281080p%29%20%5BC53D4513%5D.mkv&xl=1526379900&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-16T10:27:18.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:c53960bfc567bee16fd2a0fecabdfd14aab32c84&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2007%20(1080p)%20%5B60953DBF%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-09T10:27:08.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:aa5c399a579002f745aeb37feab0bfc76f80f758&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2006%20(1080p)%20%5B203DA1D1%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-05-02T10:27:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:d6e32b60af9eb673860398c228458bf3e82f4801&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2005%20(1080p)%20%5B69434E0B%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-25T10:27:34.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:17b1017180a1d6763d6a27acd0468c11ef515f47&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2004%20(1080p)%20%5B4EC8B0CE%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-18T10:27:02.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:b5ef6c14463c56a256a02b5ada2956d0c99d431b&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2003%20(1080p)%20%5BE56B4C70%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-11T10:27:08.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:8f47866971708644219c1a261298e4cab511a3b2&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2002%20(1080p)%20%5BBD26FCD9%5D.mkv",
+          "size": "1.4 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-04-04T10:31:40.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:72ceb224d15f1f744dc6c23ab15ca30f13ff83c2&dn=%5BSubsPlease%5D%20Mairimashita!%20Iruma-kun%20S4%20-%2001%20(1080p)%20%5B11B994A6%5D.mkv",
+          "size": "1.4 GiB"
         }
       ]
     }

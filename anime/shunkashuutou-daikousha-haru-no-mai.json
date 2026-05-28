@@ -15,7 +15,7 @@
     "year": 2026,
     "episodes": 14
   },
-  "backfilled": false,
+  "backfilled": true,
   "episodes": {
     "09": {
       "released_at": "2026-05-23T16:31:52.000Z",
@@ -25,6 +25,94 @@
           "resolution": "1080p",
           "magnet": "magnet:?xt=urn:btih:JMNKODLQIDDH2CFDNS6U6USGYWBFGUZP&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2009%20%281080p%29%20%5B6EAA56F0%5D.mkv&xl=1442235975&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
           "size": "Unknown"
+        }
+      ]
+    },
+    "08": {
+      "released_at": "2026-05-16T16:31:52.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:ed3240cc66bd9fa13260951c44cca476892d5488&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2008%20(1080p)%20%5B90953C8F%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "07": {
+      "released_at": "2026-05-09T16:32:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:befafdcdc78f9e669b6c48d08dca7ca964db15ea&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2007%20(1080p)%20%5B0FE8E576%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "06": {
+      "released_at": "2026-05-02T16:32:07.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:0770353ce14984c24d1bbe7a1358766e7399dfcc&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2006%20(1080p)%20%5B7BE3CC3E%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "05": {
+      "released_at": "2026-04-25T16:31:53.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:91ab2e0f4ca16ccc5a8af6b2f3878401c61c3704&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2005%20(1080p)%20%5B36EC2C92%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "04": {
+      "released_at": "2026-04-18T16:32:03.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:abdd88cdbf3a637009b61695df6a612f5b05432b&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2004%20(1080p)%20%5B1598DC5C%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "03": {
+      "released_at": "2026-04-11T16:33:45.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:17ce49c2ce6bd766894adf659f91de4ca430ff02&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2003%20(1080p)%20%5B4B506D0C%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "02": {
+      "released_at": "2026-04-04T16:33:30.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:a0606ab2e106a61213b4c7a3d8346a2f21ff4342&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2002%20(1080p)%20%5B573808F8%5D.mkv",
+          "size": "1.3 GiB"
+        }
+      ]
+    },
+    "01": {
+      "released_at": "2026-03-28T16:33:18.000Z",
+      "releases": [
+        {
+          "group": "SubsPlease",
+          "resolution": "1080p",
+          "magnet": "magnet:?xt=urn:btih:654db522b52a0493e1356e0d06dcc96575b52739&dn=%5BSubsPlease%5D%20Shunkashuutou%20Daikousha%20-%20Haru%20no%20Mai%20-%2001%20(1080p)%20%5B02DB4029%5D.mkv",
+          "size": "1.3 GiB"
         }
       ]
     }
