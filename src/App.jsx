@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   Search, Bookmark, Menu, Download, 
   Calendar, Users, Monitor, SlidersHorizontal, 
-  Clock, TrendingUp, ArrowUpDown, List, 
-  LayoutGrid, MoreVertical, ArrowUp, Loader2, ArrowLeft, Star, PlayCircle
+  List, LayoutGrid, MoreVertical, ArrowUp, Loader2, ArrowLeft, Star, PlayCircle
 } from 'lucide-react';
 
 const API_URL = "https://simplysmart.github.io/Ultra/latest/feed.json";
@@ -16,9 +15,10 @@ export default function App() {
   const [selectedAnimeId, setSelectedAnimeId] = useState(null);
   
   const [filters, setFilters] = useState({
-    season: 'All Seasons', group: 'All Groups', resolution: '1080p', sort: 'Latest'
+    season: 'All Seasons', group: 'All Groups', resolution: '1080p'
   });
 
+  // Fetch feed
   useEffect(() => {
     const fetchFeed = async () => {
       try {
@@ -35,13 +35,35 @@ export default function App() {
     fetchFeed();
   }, []);
 
+  // Hardware Back Button Protection (History API)
+  useEffect(() => {
+    const handlePopState = (event) => {
+      if (event.state && event.state.animeId) {
+        setSelectedAnimeId(event.state.animeId);
+      } else {
+        setSelectedAnimeId(null);
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  const openAnime = (aId) => {
+    window.history.pushState({ animeId: aId }, '', '');
+    setSelectedAnimeId(aId);
+  };
+
+  const closeAnime = () => {
+    window.history.back();
+  };
+
   const handleFilterChange = (key, value) => setFilters(prev => ({ ...prev, [key]: value }));
 
   // Dynamic Routing Logic
   if (selectedAnimeId) {
     return <AnimeViewer 
       animeId={selectedAnimeId} 
-      onBack={() => setSelectedAnimeId(null)} 
+      onBack={closeAnime} 
     />;
   }
 
@@ -95,6 +117,23 @@ export default function App() {
           </button>
         </div>
 
+        <div className="flex items-center justify-end bg-white border border-gray-100 rounded-xl p-1 mb-8 shadow-sm">
+          <div className="flex gap-1 px-2">
+            <button 
+              onClick={() => setViewMode('list')}
+              className={`p-2 rounded-lg transition-colors ${viewMode === 'list' ? 'bg-purple-100 text-purple-700' : 'text-gray-400 hover:text-gray-600'}`}
+            >
+              <List size={20} />
+            </button>
+            <button 
+              onClick={() => setViewMode('grid')}
+              className={`p-2 rounded-lg transition-colors ${viewMode === 'grid' ? 'bg-purple-100 text-purple-700' : 'text-gray-400 hover:text-gray-600'}`}
+            >
+              <LayoutGrid size={20} />
+            </button>
+          </div>
+        </div>
+
         {loading ? (
           <div className="flex flex-col items-center justify-center py-20 text-gray-400 gap-4">
             <Loader2 className="animate-spin text-purple-500" size={32} />
@@ -107,15 +146,15 @@ export default function App() {
             {Object.entries(groupedItems).map(([dateLabel, groupItems]) => (
               <div key={dateLabel}>
                 <h3 className="text-gray-400 font-bold text-sm uppercase tracking-wider mb-4 ml-1">{dateLabel}</h3>
-                <div className="grid gap-4 grid-cols-1">
+                <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
                   {groupItems.map(item => (
                     <ReleaseCard 
                       key={item.id} 
                       item={item} 
+                      viewMode={viewMode}
                       onClick={() => {
-                        // Extract anime_id gracefully for older items that might not have it explicitly
                         const aId = item.anime_id || item.id.substring(0, item.id.lastIndexOf('-'));
-                        setSelectedAnimeId(aId);
+                        openAnime(aId);
                       }}
                     />
                   ))}
@@ -129,7 +168,7 @@ export default function App() {
   );
 }
 
-// THE NEW EPISODE VIEWER COMPONENT
+// EPISODE VIEWER COMPONENT
 function AnimeViewer({ animeId, onBack }) {
   const [animeData, setAnimeData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -173,7 +212,6 @@ function AnimeViewer({ animeId, onBack }) {
   const encodedTitle = encodeURIComponent(animeData.title);
   const poster = animeData.poster || details.poster || `https://ui-avatars.com/api/?name=${encodedTitle}&background=F3F4F6&color=7C3AED&size=256&font-size=0.4&bold=true`;
   
-  // Sort episodes highest to lowest
   const sortedEpisodes = Object.entries(animeData.episodes).sort((a, b) => {
     return parseFloat(b[0]) - parseFloat(a[0]);
   });
@@ -193,7 +231,6 @@ function AnimeViewer({ animeId, onBack }) {
       </nav>
 
       <div className="max-w-4xl mx-auto px-4 py-8">
-        {/* Hero Section */}
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 mb-10">
           <div className="shrink-0 w-48 mx-auto sm:mx-0">
             <img src={poster} alt={animeData.title} className="w-full h-auto aspect-[2/3] object-cover rounded-2xl shadow-lg border border-gray-200" />
@@ -231,7 +268,6 @@ function AnimeViewer({ animeId, onBack }) {
           </div>
         </div>
 
-        {/* Episodes List */}
         <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
           <PlayCircle className="text-purple-600" /> Complete Release History
         </h2>
@@ -257,7 +293,6 @@ function AnimeViewer({ animeId, onBack }) {
                          {r.resolution}
                        </span>
                        <span className="text-xs font-bold text-gray-600">{r.group}</span>
-                       <span className="text-xs text-gray-400 font-medium">({r.size})</span>
                      </div>
                      <a href={r.magnet} className="p-1.5 text-purple-600 hover:text-white transition-colors bg-white hover:bg-purple-600 rounded-md shadow-sm border border-gray-200 hover:border-purple-600">
                        <CustomMagnet />
@@ -274,8 +309,8 @@ function AnimeViewer({ animeId, onBack }) {
   );
 }
 
-// Updated ReleaseCard to make it clickable
-function ReleaseCard({ item, onClick }) {
+function ReleaseCard({ item, onClick, viewMode }) {
+  const isList = viewMode === 'list';
   const encodedTitle = encodeURIComponent(item.clean_title.trim());
   const fallbackThumb = `https://ui-avatars.com/api/?name=${encodedTitle}&background=F3F4F6&color=7C3AED&size=256&font-size=0.4&bold=true`;
 
@@ -288,11 +323,11 @@ function ReleaseCard({ item, onClick }) {
   return (
     <div 
       onClick={onClick}
-      className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group flex p-3 gap-3 sm:gap-4 cursor-pointer hover:border-purple-200 relative overflow-hidden"
+      className={`bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group cursor-pointer hover:border-purple-200 relative overflow-hidden ${isList ? 'flex p-3 gap-3 sm:gap-4' : 'flex flex-col p-4 gap-4'}`}
     >
       <div className="absolute right-[-20px] top-[-20px] w-16 h-16 bg-purple-50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
       
-      <div className="relative shrink-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-200 w-24 sm:w-40 aspect-video sm:h-[90px]">
+      <div className={`relative shrink-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-200 ${isList ? 'w-24 sm:w-40 aspect-video sm:h-[90px]' : 'w-full aspect-video'}`}>
         <img 
           src={item.poster || fallbackThumb} 
           alt={item.clean_title} 
@@ -311,9 +346,6 @@ function ReleaseCard({ item, onClick }) {
             <span className="px-2 py-0.5 bg-purple-50 text-purple-700 text-xs font-semibold rounded-md border border-purple-100">
               {item.resolution}
             </span>
-            <span className="px-2 py-0.5 bg-white text-gray-500 text-xs font-semibold rounded-md border border-gray-200">
-              {item.size}
-            </span>
           </div>
         </div>
 
@@ -329,7 +361,7 @@ function ReleaseCard({ item, onClick }) {
             </div>
           </div>
 
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0 z-10">
             <a 
               href={item.magnet} 
               onClick={(e) => e.stopPropagation()} 
