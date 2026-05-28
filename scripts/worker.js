@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { XMLParser } from 'fast-xml-parser';
 import { processRelease } from './parser.js';
+import { fetchPoster } from './api/jikan.js';
 
 const SUBSPLEASE_RSS = "https://subsplease.org/rss/?r=1080";
 const DB_DIR = path.resolve("./db");
@@ -30,7 +31,7 @@ async function fetchAndProcess() {
 
   let latestFeed = readJSON(LATEST_FEED_PATH) || [];
   let newUpdates = false;
-  let newEntries = []; // We collect them here first to preserve the correct order
+  let newEntries = []; 
 
   for (const item of items) {
     const rawRelease = {
@@ -46,7 +47,6 @@ async function fetchAndProcess() {
     const animeData = result.data;
     const animeId = animeData.anime_id;
     
-    // Check if it exists in the OLD feed OR the NEW array we are building
     if (
       latestFeed.some(f => f.id === `${animeId}-${animeData.episode}`) ||
       newEntries.some(f => f.id === `${animeId}-${animeData.episode}`)
@@ -61,8 +61,13 @@ async function fetchAndProcess() {
     let animeHistory = readJSON(animeFilePath) || {
       id: animeId,
       title: animeData.clean_title,
+      poster: null,
       episodes: {}
     };
+
+    if (!animeHistory.poster) {
+      animeHistory.poster = await fetchPoster(animeData.clean_title);
+    }
 
     if (!animeHistory.episodes[animeData.episode]) {
       animeHistory.episodes[animeData.episode] = {
@@ -80,7 +85,6 @@ async function fetchAndProcess() {
 
     writeJSON(animeFilePath, animeHistory);
 
-    // Push into our temporary block, preserving the correct descending order
     newEntries.push({
       id: `${animeId}-${animeData.episode}`,
       clean_title: animeData.clean_title,
@@ -90,12 +94,12 @@ async function fetchAndProcess() {
       size: animeData.size,
       seeders: Math.floor(Math.random() * 500) + 500,
       pub_date: animeData.pub_date,
-      magnet: animeData.magnet
+      magnet: animeData.magnet,
+      poster: animeHistory.poster
     });
   }
 
   if (newUpdates) {
-    // Append the perfectly ordered new entries to the top of the old feed
     latestFeed = [...newEntries, ...latestFeed].slice(0, 100);
     writeJSON(LATEST_FEED_PATH, latestFeed);
     console.log("Database successfully generated.");

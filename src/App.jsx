@@ -22,7 +22,6 @@ export default function App() {
   useEffect(() => {
     const fetchFeed = async () => {
       try {
-        // Appending a timestamp query forces the browser to bypass local cache and fetch the newest JSON
         const response = await fetch(`${API_URL}?t=${new Date().getTime()}`);
         if (!response.ok) throw new Error("Network response was not ok");
         const data = await response.json();
@@ -183,7 +182,6 @@ export default function App() {
 function ReleaseCard({ item, viewMode }) {
   const isList = viewMode === 'list';
   
-  // The New Rock-Solid Thumbnail Engine
   const encodedTitle = encodeURIComponent(item.clean_title.trim());
   const fallbackThumb = `https://ui-avatars.com/api/?name=${encodedTitle}&background=F3F4F6&color=7C3AED&size=256&font-size=0.4&bold=true`;
 
@@ -198,7 +196,7 @@ function ReleaseCard({ item, viewMode }) {
     <div className={`bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow group ${isList ? 'flex p-3 gap-3 sm:gap-4' : 'flex flex-col p-4 gap-4'}`}>
       <div className={`relative shrink-0 overflow-hidden rounded-xl bg-gray-100 border border-gray-200 ${isList ? 'w-24 sm:w-40 aspect-video sm:h-[90px]' : 'w-full aspect-video'}`}>
         <img 
-          src={fallbackThumb} 
+          src={item.poster || fallbackThumb} 
           alt={item.clean_title} 
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
