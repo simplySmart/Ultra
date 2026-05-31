@@ -35,6 +35,8 @@ jobs:
 
       - name: Run Indexer Engine
         run: node scripts/worker.js
+      - name: Rebuild Master Feed
+        run: node scripts/rebuild-feed.js
 
       - name: Save and Push Updated Database
         run: |
